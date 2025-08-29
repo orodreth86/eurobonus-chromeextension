@@ -41,5 +41,6 @@ jobs:
             git push
           else
             echo "No changes in shops.json or patches.json"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
