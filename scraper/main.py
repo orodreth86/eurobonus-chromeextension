@@ -3,40 +3,54 @@ import json
 import os
 
 # ------------------------
-# SAS Scraper via JSON API
+# SAS Scraper via API
 # ------------------------
-
 def fetch_sas_shops():
     API_URL = "https://onlineshopping.loyaltykey.com/api/v1/shops"
     params = {
         "filter[channel]": "SAS",
         "filter[language]": "nb",
-        "filter[country]": "NO",
-        "filter[amount]": 5000,
-        "filter[compressed]": "true"
+        "filter[country]": "NO"
+    }
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*"
     }
 
     try:
-        resp = requests.get(API_URL, params=params, timeout=15)
+        resp = requests.get(API_URL, params=params, headers=headers, timeout=15)
         resp.raise_for_status()
+        data = resp.json()
     except Exception as e:
         print(f"Failed to fetch SAS shops: {e}")
         return []
 
-    data = resp.json()
     shops = []
-    for shop in data.get("shops", []):
+    for shop in data.get("data", []):
+        # Determine bonus format
+        bonus = None
+        if shop.get("currency") == "%":
+            bonus = f"{shop.get('points')} %"
+        elif shop.get("commission_type") == "fixed":
+            bonus = f"{shop.get('points')} kr"
+        elif shop.get("commission_type") == "variable":
+            bonus = f"{shop.get('points')} %"
+
         shops.append({
             "name": shop.get("name"),
-            "bonus": shop.get("bonusPercentage") or shop.get("bonusAmount"),
-            "type": "SAS"
+            "type": "SAS",
+            "bonus": bonus,
+            "slug": shop.get("slug"),
+            "image": shop.get("image_url"),
+            "description": shop.get("description")
         })
+
     return shops
 
 # ------------------------
 # Main
 # ------------------------
-
 def main():
     all_shops = []
 
