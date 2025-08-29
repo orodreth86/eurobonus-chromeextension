@@ -1,3 +1,4 @@
+import certifi
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -69,13 +70,13 @@ def scrape_trumf(patches):
     url = "https://trumfnetthandel.no/kategori"
     shops = []
 
-    resp = requests.get(url)
+    resp = requests.get(url, verify=certifi.where())
     soup = BeautifulSoup(resp.text, "html.parser")
 
     category_links = [a["href"] for a in soup.select("a.category-box") if "href" in a.attrs]
 
     for cat_url in category_links:
-        r = requests.get(cat_url)
+        r = requests.get(cat_url, verify=certifi.where())
         s = BeautifulSoup(r.text, "html.parser")
         category_name = s.select_one("h1").get_text(strip=True)
 
@@ -130,7 +131,7 @@ def scrape_sas(patches):
 
     while True:
         url = f"{base}{page}"
-        r = requests.get(url)
+        r = requests.get(url, verify=certifi.where())
         s = BeautifulSoup(r.text, "html.parser")
 
         shop_boxes = s.select("div.merchant-listing")
