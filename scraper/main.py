@@ -17,6 +17,11 @@ def load_patches():
         return {}
 
 
+def save_patches(patches):
+    with open(PATCH_FILE, "w", encoding="utf-8") as f:
+        json.dump(patches, f, indent=2, ensure_ascii=False)
+
+
 def save_shops(shops):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(shops, f, indent=2, ensure_ascii=False)
@@ -72,6 +77,7 @@ def scrape_trumf(patches):
     for cat_url in category_links:
         r = requests.get(cat_url)
         s = BeautifulSoup(r.text, "html.parser")
+        category_name = s.select_one("h1").get_text(strip=True)
 
         for shop in s.select("div.shop-box"):
             name = shop.select_one("h3").get_text(strip=True)
@@ -85,7 +91,7 @@ def scrape_trumf(patches):
                 rewards.append({
                     "type": "percentage",
                     "value": int(p),
-                    "category": s.select_one("h1").get_text(strip=True)  # category title
+                    "category": category_name
                 })
 
             bonuses = re.findall(r"(\d+)\s*kr", reward_text)
@@ -93,14 +99,14 @@ def scrape_trumf(patches):
                 rewards.append({
                     "type": "fixed_bonus",
                     "value": int(b),
-                    "category": s.select_one("h1").get_text(strip=True)
+                    "category": category_name
                 })
 
             aff_link = shop.select_one("a")["href"] if shop.select_one("a") else None
             domain = extract_domain_from_url(aff_link)
 
             # Patches
-            if not domain and name in patches:
+            if not domain and name in patches and patches[name]:
                 domain = patches[name]
 
             # Heuristic
@@ -154,7 +160,7 @@ def scrape_sas(patches):
             domain = extract_domain_from_url(aff_link)
 
             # Patches
-            if not domain and name in patches:
+            if not domain and name in patches and patches[name]:
                 domain = patches[name]
 
             # Heuristic
@@ -182,6 +188,18 @@ def main():
 
     print("Scraping SAS...")
     all_shops.extend(scrape_sas(patches))
+
+    # Collect unresolved domains into patches.json
+    updated = False
+    for shop in all_shops:
+        if not shop["domain"]:
+            if shop["name"] not in patches:
+                patches[shop["name"]] = None
+                updated = True
+
+    if updated:
+        print("Updating patches.json with unresolved shops...")
+        save_patches(patches)
 
     save_shops(all_shops)
     print(f"Saved {len(all_shops)} shops to {OUTPUT_FILE}")
