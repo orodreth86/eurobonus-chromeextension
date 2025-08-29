@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # make sure history is available for commit
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,14 +29,14 @@ jobs:
       - name: Run scraper
         run: python scraper/main.py
 
-      - name: Commit and push changes to shops.json
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ `git status --porcelain shops.json` ]]; then
-            git add shops.json
-            git commit -m "Auto-update shops.json"
+          if [[ `git status --porcelain shops.json scraper/patches.json` ]]; then
+            git add shops.json scraper/patches.json
+            git commit -m "Auto-update shops.json and/or patches.json"
             git push
           else
-            echo "No changes in shops.json"
+            echo "No changes"
           fi
