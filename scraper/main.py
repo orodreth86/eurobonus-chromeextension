@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import re
 
 PATCHES_FILE = os.path.join(os.path.dirname(__file__), "patches.json")
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "shops.json")
@@ -43,6 +44,39 @@ def fetch_sas_shops():
     return data.get("data", [])
 
 # ------------------------
+# Extract domain from description
+# ------------------------
+def domain_from_description(description):
+    if not description:
+        return None
+    match = re.search(r"(https?://)?(www\.)?([a-z0-9\-]+)\.(no|se|com)", description, re.I)
+    if match:
+        return match.group(3) + '.' + match.group(4)
+    return None
+
+# ------------------------
+# Resolve domain
+# ------------------------
+def resolve_domain(slug, description, patches):
+    # 1. Use patches.json if available
+    if slug in patches and patches[slug]:
+        return patches[slug]
+
+    # 2. Check description for domain
+    domain = domain_from_description(description)
+    if domain:
+        return domain
+
+    # 3. Country-aware heuristic
+    if slug.endswith("-no"):
+        return slug[:-3] + ".no"
+    elif slug.endswith("-se"):
+        return slug[:-3] + ".se"
+
+    # 4. Default .com heuristic
+    return slug + ".com"
+
+# ------------------------
 # Main
 # ------------------------
 def main():
@@ -55,6 +89,7 @@ def main():
 
     for shop in sas_shops:
         slug = shop.get("slug")
+        description = shop.get("description")
         shop_entry = {
             "name": shop.get("name"),
             "type": "SAS",
@@ -62,7 +97,7 @@ def main():
             "slug": slug,
             "domain": None,
             "image": shop.get("image_url"),
-            "description": shop.get("description")
+            "description": description
         }
 
         # Determine bonus
@@ -73,23 +108,13 @@ def main():
         elif shop.get("commission_type") == "variable":
             shop_entry["bonus"] = f"{shop.get('points')} %"
 
-        # Domain resolution using patches first
-        if slug in patches and patches[slug]:
-            shop_entry["domain"] = patches[slug]
-        else:
-            # Country-aware heuristic
-            if slug.endswith("-no"):
-                base_slug = slug[:-3]
-                shop_entry["domain"] = f"{base_slug}.no"
-            elif slug.endswith("-se"):
-                base_slug = slug[:-3]
-                shop_entry["domain"] = f"{base_slug}.se"
-            else:
-                shop_entry["domain"] = f"{slug}.com"
+        # Resolve domain
+        resolved_domain = resolve_domain(slug, description, patches)
+        shop_entry["domain"] = resolved_domain
 
-            # Add unresolved slug to patches for manual fix if needed
-            if slug not in patches:
-                patches[slug] = None if shop_entry["domain"] is None else shop_entry["domain"]
+        # Add unresolved domain to patches if not already there
+        if slug not in patches or patches[slug] != resolved_domain:
+            patches[slug] = resolved_domain
 
         all_shops.append(shop_entry)
 
@@ -100,7 +125,7 @@ def main():
 
     # Save updated patches.json
     save_patches(patches)
-    print(f"Updated patches.json with unresolved domains")
+    print(f"Updated patches.json with all domains")
 
 # ------------------------
 if __name__ == "__main__":
