@@ -3,18 +3,28 @@ import json
 import os
 import re
 
-# Absolute paths for consistency in GitHub Actions
+# Absolute paths
 PATCHES_FILE = os.path.abspath("scraper/patches.json")
 OUTPUT_FILE = os.path.abspath("shops.json")
 
 def load_patches():
     if os.path.exists(PATCHES_FILE):
         with open(PATCHES_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+            # Normalize to dict format if old entries are just strings
+            for k, v in list(data.items()):
+                if isinstance(v, str):
+                    data[k] = {
+                        "domain": v,
+                        "needs_review": False,
+                        "missing": False,
+                        "trusted": True
+                    }
+            return data
     return {}
 
 def save_patches(patches):
-    os.makedirs(os.path.dirname(PATCHES_FILE), exist_ok=True)  # ensure folder exists
+    os.makedirs(os.path.dirname(PATCHES_FILE), exist_ok=True)
     with open(PATCHES_FILE, "w", encoding="utf-8") as f:
         json.dump(patches, f, ensure_ascii=False, indent=4)
     print(f"Saved patches.json at {PATCHES_FILE} with {len(patches)} slugs")
@@ -25,7 +35,7 @@ def fetch_sas_shops():
         "filter[channel]": "SAS",
         "filter[language]": "nb",
         "filter[country]": "NO",
-        "filter[amount]": 5000  # fetch all shops
+        "filter[amount]": 5000
     }
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -66,47 +76,57 @@ def main():
     for shop in sas_shops:
         slug = shop.get("slug")
         description = shop.get("description")
+        existing_patch = patches.get(slug, {})
 
         domain = None
-        needs_review = False
+        needs_review = True
         missing = False
+        trusted = False
 
-        # Check existing patch
-        if slug in patches and "domain" in patches[slug] and patches[slug]["domain"]:
-            domain = patches[slug]["domain"]
-            needs_review = patches[slug].get("needs_review", False)
-            missing = patches[slug].get("missing", False)
+        # 1. Check existing trusted patch
+        if existing_patch.get("trusted") and existing_patch.get("domain"):
+            domain = existing_patch["domain"]
+            needs_review = False
+            trusted = True
+            missing = False
         else:
-            # Try description
+            # 2. Try description
             domain = domain_from_description(description)
             if domain:
-                needs_review = True
+                needs_review = False
+                trusted = True
             else:
+                # 3. Heuristic guess
                 domain = heuristic_domain(slug)
-                needs_review = True
+                # Optionally, you could do a simple HEAD request here to validate
+                needs_review = False
+                trusted = True
 
         if not domain:
             domain = "unknown"
+            needs_review = True
             missing = True
+            trusted = False
             missing_count += 1
 
         if needs_review:
             new_or_heuristic_count += 1
 
-        # Update patches.json entry
+        # Update patches.json
         patches[slug] = {
             "domain": domain,
             "needs_review": needs_review,
-            "missing": missing
+            "missing": missing,
+            "trusted": trusted
         }
 
-        # Prepare shop entry for shops.json
+        # Prepare shops.json entry
         shop_entry = {
             "name": shop.get("name"),
             "type": "SAS",
             "bonus": None,
             "slug": slug,
-            "domain": domain if not missing else "",  # shops.json cannot have null
+            "domain": domain if trusted else "",  # shops.json cannot have null
             "image": shop.get("image_url"),
             "description": description
         }
@@ -121,6 +141,7 @@ def main():
         all_shops.append(shop_entry)
 
     # Save shops.json
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_shops, f, ensure_ascii=False, indent=4)
     print(f"Saved {len(all_shops)} shops to {OUTPUT_FILE}")
