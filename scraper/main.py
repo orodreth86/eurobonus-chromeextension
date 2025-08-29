@@ -73,13 +73,23 @@ def main():
         elif shop.get("commission_type") == "variable":
             shop_entry["bonus"] = f"{shop.get('points')} %"
 
-        # Domain resolution using patches only
+        # Domain resolution using patches first
         if slug in patches and patches[slug]:
             shop_entry["domain"] = patches[slug]
         else:
-            shop_entry["domain"] = None
+            # Country-aware heuristic
+            if slug.endswith("-no"):
+                base_slug = slug[:-3]
+                shop_entry["domain"] = f"{base_slug}.no"
+            elif slug.endswith("-se"):
+                base_slug = slug[:-3]
+                shop_entry["domain"] = f"{base_slug}.se"
+            else:
+                shop_entry["domain"] = f"{slug}.com"
+
+            # Add unresolved slug to patches for manual fix if needed
             if slug not in patches:
-                patches[slug] = None  # Add unresolved slug for manual patch
+                patches[slug] = None if shop_entry["domain"] is None else shop_entry["domain"]
 
         all_shops.append(shop_entry)
 
