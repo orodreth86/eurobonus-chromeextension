@@ -1,15 +1,1095 @@
 {
-  "asus": "asus.com",
-  "ebay": "ebay.com",
-  "hm": "hm.com",
-  "acer": "acer.com",
-  "adidas": "adidas.com",
-  "apple": "apple.com",
-  "nike": "nike.com",
-  "lenovo": "lenovo.com",
-  "sony": "sony.com",
-  "samsung": "samsung.com",
-  "adlibris-no": "adlibris.no",
-  "bagaren-och-kokken": "bakerenogkokken.no",
-  "bambox": "bambox.no"
+    "asus": "asus.com",
+    "ebay": "ebay.com",
+    "hm": "hm.com",
+    "acer": {
+        "domain": "acer.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "adidas": {
+        "domain": "adidas.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "apple": "apple.com",
+    "nike": {
+        "domain": "nike.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lenovo": "lenovo.com",
+    "sony": "sony.com",
+    "samsung": "samsung.com",
+    "adlibris-no": {
+        "domain": "adlibris.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "bagaren-och-kokken": "bakerenogkokken.no",
+    "bambox": {
+        "domain": "Bambox.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "aeg": {
+        "domain": "aeg.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "agoda": {
+        "domain": "agoda.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "albert": {
+        "domain": "albert.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "viasat": {
+        "domain": "viasat.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "anodyne": {
+        "domain": "anodyne.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "apotekhjem": {
+        "domain": "apotekhjem.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "arons": {
+        "domain": "Arons.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "babyland": {
+        "domain": "Babyland.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "babyshop": {
+        "domain": "Babystore.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "bagaren-och-kocken": {
+        "domain": "bagaren-och-kocken.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "barbershop.no": {
+        "domain": "Barbershop.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "batteriexperten": {
+        "domain": "batteriexperten.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "baerum-energi": {
+        "domain": "baerum-energi.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "beautycos": {
+        "domain": "beautycos.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bilxtra": {
+        "domain": "bilxtra.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bjorn-borg": {
+        "domain": "bjorn-borg.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bladkongen.no": {
+        "domain": "Bladkongen.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "blivakker": {
+        "domain": "blivakker.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bodystore.com": {
+        "domain": "Bodystore.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "boohoo": {
+        "domain": "boohoo.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bookbeat": {
+        "domain": "bookbeat.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bose-1": {
+        "domain": "bose-1.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "brando": {
+        "domain": "brando.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "brilleland": {
+        "domain": "brilleland.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "bubbleroom": {
+        "domain": "bubbleroom.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "care-of-carl": {
+        "domain": "care-of-carl.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "cdon.com": {
+        "domain": "cdon.com.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "cellbes": {
+        "domain": "cellbes.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "charlies-hus": {
+        "domain": "charlies-hus.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "christiania-glasmagasin": {
+        "domain": "christiania-glasmagasin.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "computersalg": {
+        "domain": "ComputerSalg.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "cos": {
+        "domain": "cos.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "cruisedirect": {
+        "domain": "cruisedirect.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "cyberghost-vpn": {
+        "domain": "cyberghost-vpn.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "dailysports": {
+        "domain": "dailysports.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "dancenter": {
+        "domain": "dancenter.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "daniel-wellington": {
+        "domain": "Danielwellington.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "db-journey": {
+        "domain": "db-journey.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "dekkonline.no": {
+        "domain": "dekkonline.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "dentaworks": {
+        "domain": "dentaworks.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "dentway": {
+        "domain": "dentway.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "detailshop": {
+        "domain": "detailshop.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "devold": {
+        "domain": "devold.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "disney+-1": {
+        "domain": "disney+-1.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "drømmerom": {
+        "domain": "drømmerom.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "dustin-1": {
+        "domain": "Dustin.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "dyson": {
+        "domain": "dyson.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "e-wheels-2": {
+        "domain": "e-wheels-2.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "electrolux": {
+        "domain": "electrolux.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "electrolux-spares-accessories": {
+        "domain": "electrolux-spares-accessories.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "elektroimportøren.no": {
+        "domain": "ren.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "ellos-3": {
+        "domain": "ellos-3.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "elon-": {
+        "domain": "elon-.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "elskling": {
+        "domain": "elskling.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "eurodel": {
+        "domain": "Eurodel.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "euroflorist": {
+        "domain": "euroflorist.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "eurotoys": {
+        "domain": "eurotoys.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "extraoptical": {
+        "domain": "extraoptical.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "fabel": {
+        "domain": "fabel.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "farmasiet": {
+        "domain": "Farmasiet.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "farnell": {
+        "domain": "farnell.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "festkompaniet": {
+        "domain": "Festkompaniet.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "fila": {
+        "domain": "fila.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "fitnessshoppen": {
+        "domain": "Fitnessshoppen.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "footshop.eu": {
+        "domain": "footshop.eu.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "fotoknudsen": {
+        "domain": "fotoknudsen.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "fredrik-louisa": {
+        "domain": "fredrik-louisa.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "g-star": {
+        "domain": "g-star.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "gents": {
+        "domain": "Gents.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "gina-tricot-ab": {
+        "domain": "gina-tricot-ab.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "glossybox": {
+        "domain": "glossybox.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "go-dream": {
+        "domain": "go-dream.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "green-people": {
+        "domain": "green-people.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "gullfunn-1": {
+        "domain": "gullfunn-1.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "gymgrossisten": {
+        "domain": "gymgrossisten.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "h-m": {
+        "domain": "h-m.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "hairlust": {
+        "domain": "hairlust.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "hellofresh": {
+        "domain": "hellofresh.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "helly-hansen": {
+        "domain": "helly-hansen.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "herschel-supply-company": {
+        "domain": "herschel-supply-company.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "holdit": {
+        "domain": "holdit.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "homeroom": {
+        "domain": "homeroom.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "hunkemoller": {
+        "domain": "hunkemoller.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "ice": {
+        "domain": "ice.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "ideal-of-sweden": {
+        "domain": "ideal-of-sweden.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "ilovedogs": {
+        "domain": "ilovedogs.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "incover": {
+        "domain": "incover.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "inkclub": {
+        "domain": "inkclub.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "inkmann-2": {
+        "domain": "Inkmann.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "interflora": {
+        "domain": "interflora.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "interhome": {
+        "domain": "interhome.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "interoptik": {
+        "domain": "interoptik.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "iphonehuset": {
+        "domain": "iphonehuset.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "ishavskraft-strøm": {
+        "domain": "ishavskraft-strøm.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "jakt-friluft": {
+        "domain": "jaktogfriluft.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "jbl.com": {
+        "domain": "jbl.com.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "jewelbox.no": {
+        "domain": "Jewelbox.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "jotex": {
+        "domain": "jotex.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kajakk-og-fritid": {
+        "domain": "kajakk-og-fritid.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "karcher": {
+        "domain": "karcher.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kate-spade": {
+        "domain": "kate-spade.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kinogavekort": {
+        "domain": "kinogavekort.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kinoklubb": {
+        "domain": "kinoklubb.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kitchentime": {
+        "domain": "kitchentime.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kitchn-norge": {
+        "domain": "kitchn-norge.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "kjell-co-no": {
+        "domain": "Kjell.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "komplett-1": {
+        "domain": "Komplett.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "loccitane": {
+        "domain": "loccitane.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lampegiganten": {
+        "domain": "lampegiganten.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lappeliten": {
+        "domain": "lappeliten.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lego": {
+        "domain": "lego.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lekmer-1": {
+        "domain": "Lekmer.se",
+        "needs_review": true,
+        "missing": false
+    },
+    "lenovo-2": {
+        "domain": "lenovo-2.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lenson": {
+        "domain": "lenson.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lensway": {
+        "domain": "lensway.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "liffner": {
+        "domain": "liffner.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lindex": {
+        "domain": "lindex.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "logitech": {
+        "domain": "logitech.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lunehjem.no": {
+        "domain": "Lunehjem.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "lusini": {
+        "domain": "lusini.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lux-case": {
+        "domain": "lux-case.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lyko-dk": {
+        "domain": "lyko-dk.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lyr-design": {
+        "domain": "lyr-design.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "lysman": {
+        "domain": "lysman.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "maanesten": {
+        "domain": "maanesten.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "made4men": {
+        "domain": "made4men.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "mangotango": {
+        "domain": "MangoTango.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "marshall": {
+        "domain": "marshall.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "miinto": {
+        "domain": "miinto.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "myprotein": {
+        "domain": "Myprotein.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "navnelapper": {
+        "domain": "navnelapper.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "newchic": {
+        "domain": "newchic.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "newport": {
+        "domain": "newport.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "next": {
+        "domain": "next.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "nextory": {
+        "domain": "nextory.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "nordic-nest": {
+        "domain": "nordic-nest.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "nordic-print": {
+        "domain": "nordic-print.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "nordvpn": {
+        "domain": "nordvpn.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "norli": {
+        "domain": "norli.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "norton-by-symantec": {
+        "domain": "norton-by-symantec.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "obh-nordica": {
+        "domain": "obh-nordica.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "outnorth": {
+        "domain": "outnorth.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "palace-resorts": {
+        "domain": "palace-resorts.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "paradoux": {
+        "domain": "paradoux.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "patpat": {
+        "domain": "patpat.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "perfume-click": {
+        "domain": "Klikk.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "petster": {
+        "domain": "petster.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "philips": {
+        "domain": "philips.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "philips-hue": {
+        "domain": "philips-hue.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "pink-or-blue": {
+        "domain": "pinkorblue.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "polarnopyret": {
+        "domain": "polarnopyret.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "proshop": {
+        "domain": "proshop.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "proteinfabrikken": {
+        "domain": "proteinfabrikken.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "racketspecialisten": {
+        "domain": "racketspecialisten.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "rains": {
+        "domain": "rains.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "ray-ban": {
+        "domain": "ray-ban.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "razer": {
+        "domain": "razer.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "rito": {
+        "domain": "rito.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "royal-design": {
+        "domain": "RoyalDesign.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "room21": {
+        "domain": "RUM21.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "safira": {
+        "domain": "safira.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "sail-racing": {
+        "domain": "sail-racing.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "senze-of-joy": {
+        "domain": "senze-of-joy.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "shampoohuset": {
+        "domain": "Shampoohuset.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "shopping4net": {
+        "domain": "shopping4net.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "sistie": {
+        "domain": "sistie.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "skistart.com": {
+        "domain": "Skistart.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "skogstad-sport": {
+        "domain": "skogstad-sport.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "skruvat": {
+        "domain": "skruvat.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "sky-showtime": {
+        "domain": "sky-showtime.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "slikkepott": {
+        "domain": "Slikkepott.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "smartbuyglasses": {
+        "domain": "smartbuyglasses.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "smartphoto-se": {
+        "domain": "smartphoto.se",
+        "needs_review": true,
+        "missing": false
+    },
+    "sneakersnstuff": {
+        "domain": "sneakersnstuff.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "soma": {
+        "domain": "Soma.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "sonos": {
+        "domain": "sonos.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "soundstorexl": {
+        "domain": "soundstorexl.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "sparnet": {
+        "domain": "sparnet.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "sportgymbutiken": {
+        "domain": "sportgymbutiken.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "stay-in-place": {
+        "domain": "stay-in-place.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "staypro": {
+        "domain": "staypro.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "stella-mccartney": {
+        "domain": "stella-mccartney.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "stockx": {
+        "domain": "stockx.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "stormberg": {
+        "domain": "stormberg.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "storytel-no": {
+        "domain": "storytel.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "strim": {
+        "domain": "strim.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "swims": {
+        "domain": "swims.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "telia-bredband-og-tv": {
+        "domain": "telia-bredband-og-tv.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "the-chef": {
+        "domain": "the-chef.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "tilbords-1": {
+        "domain": "tilbords-1.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "timarco": {
+        "domain": "timarco.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "tirendo": {
+        "domain": "tirendo.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "trapessko": {
+        "domain": "trapessko.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "under-amour": {
+        "domain": "under-amour.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "urban-trend": {
+        "domain": "urban-trend.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "zoundindustries": {
+        "domain": "zoundindustries.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "urverket.no": {
+        "domain": "Urverket.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "velosophy": {
+        "domain": "velosophy.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "vetzoo": {
+        "domain": "VetZoo.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "viator": {
+        "domain": "viator.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "vida-xl-se": {
+        "domain": "vida-xl.se",
+        "needs_review": true,
+        "missing": false
+    },
+    "viking-footwear": {
+        "domain": "viking-footwear.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "vita-no": {
+        "domain": "vita.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "vitaepro": {
+        "domain": "vitaepro.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "vpg.no": {
+        "domain": "vpg.no.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "weekday": {
+        "domain": "weekday.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "widforss": {
+        "domain": "Widforss.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "won-hundred": {
+        "domain": "won-hundred.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "x-life": {
+        "domain": "x-life.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "xplora": {
+        "domain": "xplora.com",
+        "needs_review": true,
+        "missing": false
+    },
+    "youwish": {
+        "domain": "YouWish.no",
+        "needs_review": true,
+        "missing": false
+    },
+    "zoo.se-1": {
+        "domain": "ZOO.no",
+        "needs_review": true,
+        "missing": false
+    }
 }
