@@ -121,7 +121,7 @@
         "type": "SAS",
         "bonus": "25 %",
         "slug": "bambox",
-        "domain": "bambox.no",
+        "domain": "Bambox.no",
         "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Bambox-1689583951.jpg",
         "description": "<p>Bambox.no har spesialisert seg i basis produkter laget av bambus. Bambox selger sokker, t-shirts, undetrøyer og boksershorts til menn.</p>"
     },
@@ -286,5 +286,1670 @@
         "domain": "cellbes.com",
         "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Cellbes-1689583727.jpg",
         "description": "<p>Hos Cellbes kan du kjøpe klær og mye for hjemmet online. Cellbes hjem tilbyr baderomsmatter, duker, sengesett og mote for enhver smak, størrelse & lommebok</p>"
+    },
+    {
+        "name": "Charlies hus",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "charlies-hus",
+        "domain": "charlies-hus.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Charlies_hus-1689583812.jpg",
+        "description": "<p>Charlies Hus er butikken som ønsker å inspirere og glede barn ved å omgi seg med vakre ting. Vi vil også la foreldre med god smak få oppdage noe nytt i det norske markedet. Hos Charlies Hus finner du alt du trenger til ditt barns rom. Vi fører hovedsakelig kun franske merker av ypperste kvalitet.</p>"
+    },
+    {
+        "name": "Christiania Glassmagasin",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "christiania-glasmagasin",
+        "domain": "christiania-glasmagasin.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Christiania_Glasmagasin-1689583715.jpg",
+        "description": "<p>Christiania Glasmagasin fører i dag et bredt utvalg innen kjøkkenutstyr, glass, porselen, mat mm. Hos oss finner du kjente norske merker som Porsgrund Porselænsfabrik, Norgesglasset og Hadeland Glassverk,&nbsp;samt internasjonale brands.</p>"
+    },
+    {
+        "name": "Computersalg",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "computersalg",
+        "domain": "ComputerSalg.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Computersalg-1689584019.jpg",
+        "description": "<p>Med mer enn 22 års erfaring, og en nettbutikk som har vært online siden 1999, vet vi godt hva det dreier seg om.<br>På ComputerSalg - Online Mega Store finner du alltid et stort utvalg av de mest populære produktene, med over 1.400.000 produkter på nettsiden.<br>I 2019 ble ComputerSalg kåret til den beste nettbutikken i kategorien Telefoni, en pris som Pricerunner står bak, og som er basert på både vurdering av butikken, kjøpsprosessen og kjøpserfaringen. Deler som kundeanmeldelser, stemmer og til slutt Mystery Shopping teller i den samlede vurderingen av ComputerSalg.no.</p>"
+    },
+    {
+        "name": "COS",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "cos",
+        "domain": "cos.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/4gQvLpheU28Oio5JLtPRKNJKWLRgglL45a2iMdp6.jpg",
+        "description": "<p>COS er et motemerke for kvinner og menn som gir deg moderne og funksjonelt design. Ved å tilby nyskapende klassikere og must-haves til garderoben, lager de plagg som er ment for å vare mer enn en sesong. Tradisjonelle metoder og ny teknologi smelter sammen i tidløse og diskrete kolleksjoner.</p>"
+    },
+    {
+        "name": "CruiseDirect",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "cruisedirect",
+        "domain": "cruisedirect.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ac3Ha1F2jynGN6oly2q0ujTrMWtGLKwdp7F25OvG.jpg",
+        "description": "<div>CruiseDirect er et ledende online cruisereiseselskap som er dedikert til å gi kunder bedre tilbud enn noe annet cruisenettsted og tilgang til gode tilbud på cruiseferier.</div>"
+    },
+    {
+        "name": "CyberGhost VPN",
+        "type": "SAS",
+        "bonus": "100 %",
+        "slug": "cyberghost-vpn",
+        "domain": "cyberghost-vpn.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/CyberGhost_VPN-1689584098.jpg",
+        "description": "<p>CyberGhost er skaperen av en av verdens mest pålitelige personvern- og sikkerhetsløsninger i verden. Selskapet sikrer og anonymiserer online-tilstedeværelsen til over 36 millioner brukere over hele verden.</p>"
+    },
+    {
+        "name": "Daily Sports",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "dailysports",
+        "domain": "dailysports.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Daily_Sports-1689583780.jpg",
+        "description": "<p>Vi lager golfklær og treningstøy med passform og design for kvinner. Våre golfbukser og treningstightser har stretch og litt høyere midje. Våre pikétrøyer og treningstopper har egendesignede mønster, sømmer og rynker som fremhever den kvinnelige figuren.</p>"
+    },
+    {
+        "name": "DanCenter",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "dancenter",
+        "domain": "dancenter.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/DanCenter-1689583933.jpg",
+        "description": "<p>Hos Dancenter kan du enkelt bestille sommerferiehuset ditt - fra små koselige hytter til store luksusferiehus med svømmebasseng. Flere enn 45.000 gjester har vurdert DanCenter til 4,1 av 5 stjerner og bare i Danmark har de over 5 000 feriehus en kan velge mellom.</p>"
+    },
+    {
+        "name": "Daniel Wellington",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "daniel-wellington",
+        "domain": "Danielwellington.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Daniel_Wellington-1689583657.jpg",
+        "description": "<p>Danielwellington.com er en av verdens ledende nettbutikker og tilbyr stilige klokker, armbånd og smykker med tidløst design som passer til enhver anledning. Enten du er invitert til et finere arrangement, for å spille en tenniskamp eller nyte en solrik dag på stranden, er en Daniel Wellington det perfekte komplementet.</p>"
+    },
+    {
+        "name": "Db Journey",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "db-journey",
+        "domain": "db-journey.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/5OxYS91yvmTkOpXmOcUFJOzkFvNIhATJbLngYRJ0.png",
+        "description": "<p>Fra gatene til toppene er utstyret vårt reistestet av noen av verdens beste idrettsutøvere, eventyrere og skapere.</p>"
+    },
+    {
+        "name": "dekkonline.com",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "dekkonline.no",
+        "domain": "dekkonline.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Dekkonline.no-1689583805.jpg",
+        "description": "<p>dekkonline.com by Delticom AG, Europas største nettforhandler av dekk - Dekk til lave priser - Topp kvalitet, enkelt og komfortabelt.&nbsp;</p>"
+    },
+    {
+        "name": "Dentaworks",
+        "type": "SAS",
+        "bonus": "150 %",
+        "slug": "dentaworks",
+        "domain": "dentaworks.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Dentaworks-1689583677.jpg",
+        "description": "<p>Tannbleking hjemme&nbsp;blir stadig mer populært. I stedet for å måtte gå til tannlegen og bruke tusenvis av kroner på tannbleking, kan du nå få hvitere tenner ved å bleke hjemme. Det er billig, enkelt og raskt – og du kan bleke når du vil.</p>"
+    },
+    {
+        "name": "Dentway",
+        "type": "SAS",
+        "bonus": "180 %",
+        "slug": "dentway",
+        "domain": "dentway.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Dentway_NO-1689583625.jpg",
+        "description": "<div align=\"left\">Dentway er Nordens ledende foretak innen tannbleking og \nmunnstellprodukter for hjemmebruk, med virksomhet i Sverige, Norge og \nFinland med hovedkontor i Stockholm.<br>\n\t</div>"
+    },
+    {
+        "name": "Detailshop",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "detailshop",
+        "domain": "detailshop.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Detailshop-1689584125.jpg",
+        "description": "<p>Nettbutikk med bilpleieartikler av høy kvalitet. Har&nbsp;et produktutvalg som er enkelt å navigere for kundene, og siden vi ikke har mange forskjellige kjemileverandører har vi meget høy kompetanse på de merkene vi fører. Vårt ønske er at alle skal kunne gå inn i nettbutikken vår og finne det de trenger, uten et stort utvalg av like produkter, og forstyrrende elementer under kjøpsprosessen. Vi skal ha en nettbutikk som skiller seg positivt fra konkurrentene, og gir kunden en god følelse.</p>"
+    },
+    {
+        "name": "Devold",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "devold",
+        "domain": "devold.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Devold-1689584135.jpg",
+        "description": "<p>Devold of Norway AS er Norges ledende merkevare innen ullbekledning. Vår stolte historie strekker seg helt tilbake til 1853, og våre innovative produkter har vært en viktig del av utrustningen i mange store ekspedisjoner i både inn- og utland. Under merkevaren Devold® utvikles og produseres undertøy, mellombekledning, gensere, sokker og annet tilbehør i ull. Vi eier vår egen fabrikk i Europa, hvor innovasjon og bærekraftig produksjon er sentrale verdier.</p>"
+    },
+    {
+        "name": "Disney+",
+        "type": "SAS",
+        "bonus": "500 kr",
+        "slug": "disney+-1",
+        "domain": "disney+-1.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Disney+-1689584089.jpg",
+        "description": "<div>Disney+ er strømmetjenesten for Disney, Pixar, Marvel, Star Wars og National Geographic. Nye favoritter, tidløse klassikere og eksklusive Disney+ Originals – det finnes noe for alle.</div><div><br></div><div><strong>Merk venligst:</strong> Dette tilbudet kan bare brukes én gang per EuroBonus-medlem og gjelder kun for nye norske medlemmer. Du vil bare tjene poeng for et årlig abonnement.</div>"
+    },
+    {
+        "name": "Drømmerom",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "drømmerom",
+        "domain": "drømmerom.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Drømmerom-1689583954.jpg",
+        "description": "<p>Drømmerom - Barne og temasenger<strong>&nbsp;</strong>er en norsk nettbutikk med landets største utvalg av temasenger for barn. Her finner man unike senger av fransk design og høy kvalitet - både Frozen sledeseng til prinsesserommet og racerbilseng for prinsen.</p>"
+    },
+    {
+        "name": "Dustin",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "dustin-1",
+        "domain": "Dustin.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Dustin-1689583855.jpg",
+        "description": "<p>Dustin.no er Nordens ledende e-handelsportal for IT-produkter.&nbsp;På Dustin.no kan bedrifter handle alt de trenger innenfor IT: PC og tilleggsutstyr, skrivere og skannere, lyd og bilde, telefon og navigasjon, programvare, server og lagring, kontorutstyr og møbler.</p>"
+    },
+    {
+        "name": "Dyson",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "dyson",
+        "domain": "dyson.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Dyson-1689584189.jpg",
+        "description": "<p>Hvis du ikke allerede er kjent med Dyson, kan vi bare anbefale at du gjør det. Vi er veldig begeistret for engelske Dyson, som leverer støvsugere, stylingprodukter og mye mer. Her får du ikke bare en klassisk støvsuger. I stedet kan du nyte nyskapende teknologi som tar brukeropplevelsen til helt nye høyder.</p>"
+    },
+    {
+        "name": "E-Wheels",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "e-wheels-2",
+        "domain": "e-wheels-2.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/E-Wheels-1689584149.jpg",
+        "description": "<p>E-Wheels har fokusert på elektriske fremkomstmidler siden 2014 og er eksperter på elektriske sparkesykler, hoverboards, elektriske sykler og&nbsp;skateboards. Våre egne produkter fra merkene E-Wheels og Momas vinner forbrukertester gang på gang, og i tillegg selger vi det beste fra merker som Kaabo, Zero og Airwheel.</p>"
+    },
+    {
+        "name": "Electrolux",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "electrolux",
+        "domain": "electrolux.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Electrolux-1689584179.jpg",
+        "description": "<p>Grunnlagt i Sverige i 1919 hvor vi tror at opplevelser er formet av vår livsstil. Med roten i våre svenske verdier og et bærekraftig forhold til naturen, designer vi med et klart formål. Dette gjelder alt vi gjør. Fra å ta vare på klærne dine slik at de ser nye ut og varer lenger, eller design av nye kjøkken som fokuserer på smaksglede til å forbedre trivselen i hjemmet ditt.</p>"
+    },
+    {
+        "name": "Electrolux Spares & accessories",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "electrolux-spares-accessories",
+        "domain": "electrolux-spares-accessories.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Electrolux_Spares_&_accessories-1689584225.jpg",
+        "description": "<p>Grunnlagt i Sverige i 1919 hvor vi tror at opplevelser er formet av vår livsstil. Med roten i våre svenske verdier og et bærekraftig forhold til naturen, designer vi med et klart formål. Dette gjelder alt vi gjør. Fra å ta vare på klærne dine slik at de ser nye ut og varer lenger, eller designe nye kjøkken som fokuserer på smaksglede til å forbedre trivselen i hjemmet ditt.</p>"
+    },
+    {
+        "name": "Elektroimportøren.no",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "elektroimportøren.no",
+        "domain": "ren.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Elektroimportøren.no-1689584006.jpg",
+        "description": "<p>Elektroimportøren.no leverer et bredt sortiment av elektriske artikler og installasjonsmateriell til den profesjonelle bruker og til den enkelte forbruker. Leverandørene er anerkjente merkevareleverandører og de fremste innen sitt område.</p>"
+    },
+    {
+        "name": "Ellos",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "ellos-3",
+        "domain": "ellos-3.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ellos-1689583801.jpg",
+        "description": "<p>På Ellos handlar du dameklær, herreklær og barneklær, prisgunstig og enkelt. Deres brede sortiment inneholder alt fra kjoler, jakker, undertøy, gensere og dresser til leker og hjemelektronikk.&nbsp;Besøk også vår boligavdeling med alt til hjemmet ditt.</p>"
+    },
+    {
+        "name": "ELON",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "elon-",
+        "domain": "elon-.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ELON_-1689583955.jpg",
+        "description": "<p>Vi i Elon er stolte over å være en del av Nordens nye, store elektronikk-kjede. I dag har vi over 600 butikker i Norge, Sverige, Finland, Danmark og Island. Sammen kjenner vi det nordiske markedet som ingen andre, og vi tilbyr et stort sortiment til konkurransedyktige priser, uten å ofre det personlige preget. Vårt mål er at du som kunde skal sitte igjen med en ekstra god handleopplevelse, og vi brenner for å gi deg de beste produktene og den beste servicen.</p><p><br><strong>Merk vennligst:</strong> Du tjener bare poeng når du kjøper online, og ikke i fysiske butikker.<br></p>"
+    },
+    {
+        "name": "ELSKLING",
+        "type": "SAS",
+        "bonus": "500 kr",
+        "slug": "elskling",
+        "domain": "elskling.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/EONAPg6mrj704hNsqMEnEcQpVgBzliAipwoU5eSQ.jpg",
+        "description": "<div>elskling.no tilbyr en nettbasert tjeneste som på en enkel, lettilgjengelig og objektiv måte presenterer samtlige strømkontrakter på det norske kraftmarkedet.<br><br><strong>Vennligst merk</strong>: Denne kampanjen kan kun brukes én gang pr. kunde og gjelder kun for nye Norske kunder. Husk at du kun tjener poeng for godkjente kjøp gjort via SAS Online Shopping. Hvis du returnerer eller kansellerer et kjøp før 3 måneder, vil poeng bli forspilt.</div>"
+    },
+    {
+        "name": "Eurodel",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "eurodel",
+        "domain": "Eurodel.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Eurodel-1689583899.jpg",
+        "description": "<p>Eurodel.no er en norsk nettbutikk som tilbyr bildeler til de fleste bilmerker. De selger delene av originalkvalitet eller bedre fra kjente produsenter og leverandører til bilindustrien.</p>"
+    },
+    {
+        "name": "Euroflorist",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "euroflorist",
+        "domain": "euroflorist.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/EuroFlorist-1689583671.jpg",
+        "description": "<p>Hos Euroflorist kan du bestille blomster på nett enkelt og smidig. Blomsterlevering samme dag i hele&nbsp;Norge. Euroflorist, din blomsterbutikk på nett.</p>"
+    },
+    {
+        "name": "Eurotoys",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "eurotoys",
+        "domain": "eurotoys.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Eurotoys-1689583666.jpg",
+        "description": "<p>Eurotoys er en skandinavisk nettbutikk som forhandler: leker, barnemøbler, kostyme, lekehus, barnesykler mm. via internettet.&nbsp;Hele sortimentet av leker og relaterte produkter er CE-merket og godkjent i Europa.</p>"
+    },
+    {
+        "name": "Extra Optical",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "extraoptical",
+        "domain": "extraoptical.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/C5MQOX2hw2fAJ4RzFKaFrfjFulKoRyQ0uflCp1XS.jpg",
+        "description": "<p>Hos oss kan du beställa alla typer glasögon, och som andra optikerkedjor, kan vi också korrigera för närsynthet, översynthet, skeva hornhinnor samt för de som behöver prisma. Lika bra glasögon, men till ett lägre pris.&nbsp;Vi ska alltid ha Sveriges billigaste glasögon med styrka! Vi har ett stort sortiment med trendiga nyheter. Alla ska ha råd med ett par kvalitetsglasögon.</p>"
+    },
+    {
+        "name": "Fabel",
+        "type": "SAS",
+        "bonus": "250 kr",
+        "slug": "fabel",
+        "domain": "fabel.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Fabel-1689584136.jpg",
+        "description": "<p>Fabel er den norske abonnementstjenesten for lydbøker hvor du finner de største, norske forfatterne og mange av de mest populære forfatterne fra utlandet. Du kan velge mellom et stort utvalg lydbøker i alle sjangre, fra krim og spenning til romaner, dokumentarer og barnelydbøker.&nbsp;Vi har også egenprodusert innhold som du kun hører i Fabel!</p>"
+    },
+    {
+        "name": "Farmasiet",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "farmasiet",
+        "domain": "Farmasiet.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Farmasiet-1689584073.jpg",
+        "description": "<div>Farmasiet er Norges største nettapotek og er i stor vekst. Det skyldes at flere kunder foretrekker enkelheten med å handle på nett, sammen med diskresjonen det gir. I tillegg er ofte prisene vesentlig lavere på nett. Nettapoteket selger både reseptbelagte og reseptfrie legemidler, i tillegg til andre apoteksprodukter som solkrem og kosttilskudd. Farmasiet.no tilbyr også gratis veiledning til sine kunder anonymt på chat, i tillegg til på e-post og telefon.<br><br><strong>Vennligst merk</strong>: Du tjener ikke poeng på reseptbelagte produkter.</div>"
+    },
+    {
+        "name": "Farnell",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "farnell",
+        "domain": "farnell.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Farnell-1689584024.jpg",
+        "description": "<p>Farnell er en distributør av&nbsp;yteknologiprodukter, tjenester og løsninger for elektronisk systemdesign, vedlikehold og reparasjon. Farnell har virksomhet i 28 land over hele Europa, betjent fra våre regionale distribusjonssentraler i Storbritannia og Belgia. Vi er opptatt av å støtte lokale språk-, produkt- og forsendelsesbehov. Som en del av Farnels globale virksomhet, vår tilgang til aksjer og sterkere forhold til leverandører, er vi bedre i stand til å imøtekomme dine behov.</p>"
+    },
+    {
+        "name": "Festkompaniet",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "festkompaniet",
+        "domain": "Festkompaniet.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Festkompaniet-1689583790.jpg",
+        "description": "<p>Festkompaniet.no har det du trenger for å skape den flotteste feiringen for både barn og voksne.&nbsp;Sortimentet inkluderer alt fra borddekking, dekorasjon, festtilbehør og bakeartikler, til et stort utvalg av komplette fest-temaer.</p>"
+    },
+    {
+        "name": "Fila",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "fila",
+        "domain": "fila.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/vw9QUPVnGAZXmuVX6HW760CGKrEWNpaiVOjO3fyW.png",
+        "description": "<div>FILA er et italiensk sportswear-merke som tilbyr et bredt utvalg av klær, sko og tilbehør for både sport og streetwear.</div>"
+    },
+    {
+        "name": "Fitnessshoppen",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "fitnessshoppen",
+        "domain": "Fitnessshoppen.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/OuTU58qjyqbrTpflYmTZAqbLb1pPxEmGrHU0SwRW.jpg",
+        "description": "<div>Hos Fitnessshoppen.no finner du et bredt utvalg av treningsutstyr, og vi har alt du trenger for å få en sunn hverdag med mosjon og trening. Vi har billig treningsutstyr til hjemmetrening i tillegg til et stort utvalg av semiprofesjonelt og profesjonelt utstyr, slik at du kan få dekket ethvert behov innenfor treningsutstyr.&nbsp;</div>"
+    },
+    {
+        "name": "Footshop.eu",
+        "type": "SAS",
+        "bonus": "80 %",
+        "slug": "footshop.eu",
+        "domain": "footshop.eu.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Footshop.eu-1689584058.jpg",
+        "description": "<p>Hos Footshop finner du sko for kvinner, menn og barn samt hiphop og joggesko fra kjente merker, luer, ryggsekker, lommebøker og mye mer. Alle varene er på lager og klare for umiddelbar levering!</p>"
+    },
+    {
+        "name": "FotoKnudsen",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "fotoknudsen",
+        "domain": "fotoknudsen.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/FotoKnudsen-1689583739.jpg",
+        "description": "<p>Norges største tjeneste for foto og fremkalling av bilder.&nbsp;Bruk dine bilder til å lage flotte fotobøker, kort og interiørprodukter hos FotoKnudsen. Du kan også lagre bildene dine helt gratis i Minnebanken, og dele dem med venner og familie. Bevar minnene på en morsom og personlig måte, og gi bildene den plassen de fortjener.</p>"
+    },
+    {
+        "name": "Fredrik & Louisa",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "fredrik-louisa",
+        "domain": "fredrik-louisa.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Fredrik_&_Louisa-1689584113.jpg",
+        "description": "<p>Fredrik & Louisa er en kosmetikk kjede med over 50 butikker i Norge, og nå med nylig lansert nettbutikk. Autorisert forhandler av både eksklusive, selektive og kommersielle merkevarer, og opererer som en high end profil i markedet. Enkelte merkevarer vi fører finnes kun hos Fredrik & Louisa. Våre tre hovedkategorier er parfyme, makeup og hudpleie.</p>"
+    },
+    {
+        "name": "G-Star",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "g-star",
+        "domain": "g-star.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/JoU6pDe3yfRbDuqJjNHW7OFOtcAhOMpvhA343BtF.jpg",
+        "description": "<div>Denim. Det er lidenskapen vår. Det er i blodet vårt. Men vi er ikke bare et annet denimmerke. Vi er RÅ. Siden 1989 har vi flyttet grensene for denimdesign, og manifestert vår egen fremtid for denim.</div>"
+    },
+    {
+        "name": "Gents",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "gents",
+        "domain": "Gents.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Gents-1689583953.jpg",
+        "description": "<p>Gents.no har det største sortimentet innen mannlig livsstil. Alt du behøver innen barbering, skjegg, bart og hudpleie.<br></p>"
+    },
+    {
+        "name": "Gina Tricot",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "gina-tricot-ab",
+        "domain": "gina-tricot-ab.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Gina_Tricot-1689583758.jpg",
+        "description": "<p>Gina Tricot er en svensk motekjede som tilbyr spennende og feminin mote til kvinner i mer enn 30 land.</p>"
+    },
+    {
+        "name": "Glossybox",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "glossybox",
+        "domain": "glossybox.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Glossybox-1689583692.jpg",
+        "description": "<p>Glossybox er den ledende abonnementstjeneste innenfor skjønnhet med mange tusen dedikerte tilhengere og medlemmer. Hver måned sender vi ut en luksuriøs og vakker eske til våre abonnenter, fylt med fem nøye utvalgte skjønnhetsprodukter i mindre formater.</p>"
+    },
+    {
+        "name": "GO DREAM",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "go-dream",
+        "domain": "go-dream.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Go_Dream-1689583810.jpg",
+        "description": "<p>Fordi livet handler om følelser og lykke, elsker og lever vi på GO DREAM for nye opplevelser. Vi tror på, at en fantastisk opplevelse er den perfekte gaven å få og gi.&nbsp;Velg mellom mer enn 100 unike opplevelser og utfork en verden full av eventyr, adrenalin, kultur, gastronomi, reiser og velvære.</p>"
+    },
+    {
+        "name": "Green People",
+        "type": "SAS",
+        "bonus": "100 %",
+        "slug": "green-people",
+        "domain": "green-people.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Green_People-1689584008.jpg",
+        "description": "<p>Green People er et fremadstormende skjønnhetsmerke innen naturlig, økologisk hud- og hårpleie. Deres&nbsp;utvalg&nbsp;består av over 145 produkter for alle behov, problemer eller hudtyper. Vi bruker kun rene, bærekraftige ingredienser, som er klinisk testet og ikke inneholder harde kjemikalier, parabener eller uttørkende alkohol. Green Peoples produkter har vunnet over 190 priser innen økologisk og bærekraftig kosmetikk.</p>"
+    },
+    {
+        "name": "Gullfunn",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "gullfunn-1",
+        "domain": "gullfunn-1.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Gullfunn-1689584328.jpg",
+        "description": "<p>Gullfunn er en anledningsbutikk med lang tradisjon som faghandel innen gullsmed- og urmakerfaget. Vi har et bredt sortiment med smykker, klokker og gaveartikler til de små og store anledningene i livet som dåp og navnedag, bursdager, konfirmasjon, forlovelse og bryllup. Hos Gullfunn skal du alltid finne det klassiske, men også de store trendene.</p>"
+    },
+    {
+        "name": "Gymgrossisten",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "gymgrossisten",
+        "domain": "gymgrossisten.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Gymgrossisten-1689583600.jpg",
+        "description": "<p>Gymgrossisten er Nordens største e-handelsplass for trening, mosjon, diett og kosttilskudd.<br></p>"
+    },
+    {
+        "name": "H&M",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "h-m",
+        "domain": "h-m.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/H&M-1689583939.jpg",
+        "description": "<div>Mye har skjedd siden den første Hennes-butikken åpnet i Västerås i 1947. H&amp;M tilbyr mote og kvalitet til beste pris! Shop siste mote online og oppdag nye favoritter.</div><div><br></div><div><strong>Vennligst merk</strong>: Du kan kun tjene poeng for nettkjøp (gjelder ikke via appen) og ikke i fysiske butikker. Det utbetales ikke poeng ved kjøp av gavekort.</div>"
+    },
+    {
+        "name": "HairLust",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "hairlust",
+        "domain": "hairlust.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/HairLust-1689584159.jpg",
+        "description": "<p>Hairlust er et skandinavisk hårpleiemerke dedikert til å forbedre og opprettholde sunt hår ved å fokusere på å skape naturlige produkter for både indre og ytre hårpleie. Vi har et naturlig helhetlig syn på hårpleie og kombinasjonen av våre produkter skaper de beste forutsetningene for sunnere hår.</p>"
+    },
+    {
+        "name": "HelloFresh",
+        "type": "SAS",
+        "bonus": "500 kr",
+        "slug": "hellofresh",
+        "domain": "hellofresh.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Hellofresh-1689584010.jpg",
+        "description": "<div>En av Norges deiligste måltidskasser som tar fleksibilitet til helt nye høyder. Med HelloFresh kan du sette sammen ukemenyen din akkurat slik du vil ha den - og du kan endre retter når det passer deg. Hver uke får du 15 oppskrifter å velge mellom med alt fra norske favoritter til det fantastiske verdenskjøkkenet.</div><div><br>Med HelloFresh kan du bestille tre til fem måltider og servere for to til fire personer hver uke. Du kjenner din egen smak bedre enn noen andre, så du kan skreddersy oppskriftene dine for å gjøre ukesmenyen så god som mulig.</div><div><br><strong>SAS EuroBonus-tilbud:</strong> Spar opptil 1 489 kr på de første 6 kassene dine.</div><div><strong><br>Merk vennligst:</strong> Denne kampanjen kan kun brukes én gang per medlem og gjelder kun nye kunder med norsk adresse. Du tjener kun poeng én gang og kun ved bestilling av minimum 3 ukers måltider. Du fortsetter å tjene poeng selv om en automatisk rabattkode er satt inn.</div>"
+    },
+    {
+        "name": "Helly Hansen",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "helly-hansen",
+        "domain": "helly-hansen.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/uYI5lZ5vdzwsi5eo9CfDkBgifhVTqG7QHtEO4CEA.jpg",
+        "description": "<div>Klær for seiling, ski og friluftseventyr siden 1877. Våre klær er utviklet sammen med profesjonelle skiløpere, seilere og fjellførere, slik at du kan ha de riktige klærne for all slags vær og årstider.</div>"
+    },
+    {
+        "name": "Herschel Supply Co",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "herschel-supply-company",
+        "domain": "herschel-supply-company.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Herschel_Supply_Company-1689584085.jpg",
+        "description": "<p>For ved å gi den daglige gang de perfekte tasker og tilbehør har Herschel Supply's Classic Collection gjennomgått design fra bunter til flere detaljer, og de kan hjelpe til med å avvise. Med tidløse silhuetter inspirerer fra verden rundt oss, fremskalder hvert stykke og smule nostalgi og tilbyr hund moderne funktionalitet. Herschel Supply Classic Collection fortsetter med på omdefinert tidløst design og samtidig bevare og fin vurdering til detaljer.</p>"
+    },
+    {
+        "name": "Holdit",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "holdit",
+        "domain": "holdit.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Holdit-1689584198.jpg",
+        "description": "<p>Holdit er et merke som designer og selger mobiltilbehør til trendy mennesker. Merket har sin rot i Sverige og er aktivt i over 15 land.</p>"
+    },
+    {
+        "name": "Homeroom",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "homeroom",
+        "domain": "homeroom.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Homeroom-1689583918.jpg",
+        "description": "<p>Homeroom er Ellos Groups nystartede nettbutikk for møbler og interiør.&nbsp;Her&nbsp;finner du alt innen møbler og interiør til hjemmet, både innendørs og utendørs. Utvalget vårt er enormt og produktene prisgunstige!<br></p>"
+    },
+    {
+        "name": "Hunkemøller",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "hunkemoller",
+        "domain": "hunkemoller.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Hunkemöller-1689583794.jpg",
+        "description": "<p>Hunkemöller er det største merkevaren for undertøy i Europa med mer enn 940 butikker over hele verden og som er til stede i 21 forskjellige land. Søk nå på Hunkemöller-programmet!</p>"
+    },
+    {
+        "name": "ICE",
+        "type": "SAS",
+        "bonus": "2000 kr",
+        "slug": "ice",
+        "domain": "ice.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ICE_NORWAY-1689583885.jpg",
+        "description": "<div>Ice er kjent som Norges tredje største leverandør av mobile bredbåndstjenester, og dekker mer enn 75% av Norges landareal og har dekning 100 kilometer ut fra kysten.</div><div><strong><br>Vennligst merk:</strong> Dette tilbudet kan kun brukes en gang per kunde og gjelder kun nye kunder. En ny kunde anses som ikke aktiv de siste 12 månedene. Kampanjen gjelder ved kjøp av mobilabonnement, mobilt bredbånd eller mobiltelefon med abonnement. ICE Junior gir ikke<strong> </strong>point.&nbsp;</div>"
+    },
+    {
+        "name": "Ideal of Sweden",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "ideal-of-sweden",
+        "domain": "ideal-of-sweden.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ideal_of_Sweden-1689584095.jpg",
+        "description": "<p>IDEAL OF SWEDEN er et globalt mote- og livsstilsmerke som lager premium mobiltilbehør til hverdagen.&nbsp;Ved å skape den perfekte syntesten av mote og teknologi, står IDEAL OF SWEDEN for litt luksus som vil gjøre hverdagen enkel og luksuriøs. Fra mobildeksler, mobil-lommebøker, ladekabler, power banks til vesker og annet motetilbehør, er våre designs inspirert av de siste trendene innen mote og interiør, med smarte funksjoner og spennende stiler.</p>"
+    },
+    {
+        "name": "I love dogs",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "ilovedogs",
+        "domain": "ilovedogs.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ilovedogs-1689583789.jpg",
+        "description": "<p>Norges største utvalg av rimelige og kule hundeklær.</p>"
+    },
+    {
+        "name": "Incover",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "incover",
+        "domain": "incover.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/OJJrMzXocxaovIM0DVvBayrGWguttgXCtlotpyBi.png",
+        "description": "<div>På INCOVER finner du tusenvis av forskjellige produkter, fordelt på alle de populære smarttelefonene og nettbrettene på markedet. Vi har et bredt sortiment av de største, internasjonale merkene, samt våre egne merker.</div>"
+    },
+    {
+        "name": "InkClub",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "inkclub",
+        "domain": "inkclub.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/InkClub-1689583656.jpg",
+        "description": "<p>Som vanlig finner du blekk og toner hos inkClub.&nbsp;Sjekk ut utvalget av lyspærer, batterier, hygieneartikler som barberhøvler, plaster og tannbørster, mobil- og datatilbehør, støvsugerposer og rengjøringsprodukter, skriveblokker, kulepenner og mapper til hjemmekontor og mye mer.</p>"
+    },
+    {
+        "name": "Inkmann",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "inkmann-2",
+        "domain": "Inkmann.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Inkmann-1689583819.jpg",
+        "description": "<p>Inkmann.no er en av Norges største leverandører av blekkpatroner og toner. Vi gir 100% garanti på alle våre blekkpatroner og tonere. Vi selger kun kompatible blekkpatroner og originale blekkpatroner som er 100% kompatible med din skriver.</p>\n\n<p><br></p>\n\n\n\n<p><strong>Vennligst merk:</strong>&nbsp;Dette tilbudet kan bare brukes en gang per kunde og gjelder bare for nye kunder.&nbsp;Minimum ordreverdi 250 NOK.<br></p>"
+    },
+    {
+        "name": "Interflora",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "interflora",
+        "domain": "interflora.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ezWx3sdsQ1F5NZ1oAHBmRNT0NvO8sQlsJtdsioBr.png",
+        "description": "<p>Interflora - verdens største og eldste blomsterorganisasjon grunnlagt i 1908. Her&nbsp;kan du bestille blomster og få de levert rett på døren. Få kreative blomsterdekorasjoner til alle anledninger!&nbsp;</p>"
+    },
+    {
+        "name": "Interhome",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "interhome",
+        "domain": "interhome.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Interhome-1689583910.jpg",
+        "description": "<p>Interhome kan oppfylle omtrent alle forespørsler og ønsker med mer enn 34,000 feriehus og leiligheter i 33 land som kan bestilles online</p>"
+    },
+    {
+        "name": "Interoptik",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "interoptik",
+        "domain": "interoptik.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Interoptik-1695372400.jpg",
+        "description": "<p>Vi skal alltid gi deg den beste rådgivning og oppfølging på øyehelse, syn og valg av riktige briller og kontaktlinser. Derfor har vi et fantastisk kundeservice-team som er klare for å hjelpe deg med alt du måtte trenge hjelp til.</p>"
+    },
+    {
+        "name": "iPhonehuset",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "iphonehuset",
+        "domain": "iphonehuset.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/iPhonehuset-1689583811.jpg",
+        "description": "<p>iPhonehuset har solgt iPhone-tilbehør til over 250 000 fornøyde kunder siden oppstarten i 2008. Vi har fokus på rask levering, stor produktkunnskap og tilbehør av høy kvalitet fra en mengde kjente produsenter.</p>"
+    },
+    {
+        "name": "Ishavskraft strøm",
+        "type": "SAS",
+        "bonus": "2000 kr",
+        "slug": "ishavskraft-strøm",
+        "domain": "ishavskraft-strøm.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ishavskraft_strøm-1689584227.jpg",
+        "description": "<div>Ishavskraft er en av Norges største kraftleverandører, med privat- og bedriftskunder i hele landet. Energibransjen er i endring og Ishavskraft er bare ved begynnelsen av deres reise!</div><div><br></div><div><strong>Vennligst merk</strong>: Denne kampanjen kan kun brukes én gang pr. kunde og gjelder kun for nye Norske kunder. Gjelder ikke kjøp i nettbutikken.</div><div><br></div>"
+    },
+    {
+        "name": "Jakt & Friluft",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "jakt-friluft",
+        "domain": "jaktogfriluft.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Jakt_&_Friluft-1689584155.jpg",
+        "description": "<p>På jaktogfriluft.no finner du et av Norges største utvalg av utstyr til jakt, fiske og friluftsliv på et sted. Vi tilbyr et stort utvalg av kvalitetsprodukter fra kjente produsenter til konkurransedyktige priser. Vi har et unikt vareutvalg med spesielt stort fokus på varer rettet mot jegeren!</p>"
+    },
+    {
+        "name": "JBL.com",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "jbl.com",
+        "domain": "jbl.com.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/JBL-1689583702.jpg",
+        "description": "<p>I mer enn 60 år har JBL®-merket levert produkter som eksemplifiserer teknologien og kompetansen som er oppnådd gjennom sitt lederskap innen profesjonell lydgjengivelse. JBL-navnet har vært synonymt med den nøyaktige, naturlig artikulerte lyden som finnes i mange av verdens mest prestisjefylte steder, inkludert klubber, kinoer og opptaksstudier, og fra konsertsaler til utendørs stadioner.</p>"
+    },
+    {
+        "name": "Jewelbox.no",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "jewelbox.no",
+        "domain": "Jewelbox.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Jewelbox.no-1689583652.jpg",
+        "description": "<div>Jewelbox.no er en norsk nettbutikk som selger smykker, armbånd, ringer, skjerf, vesker og annet tilbehør. Jewelbox.no fører merker som bl.a. Dyrberg/Kern,&nbsp;Pilgrim, Snö&nbsp;of Sweden, og Edblad.</div>"
+    },
+    {
+        "name": "Jotex",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "jotex",
+        "domain": "jotex.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Jotex-1689583818.jpg",
+        "description": "<p>Jotex er Nordens største nettbutikk for hjeminnredning på nettet. En sikker inspirasjonskilde for trend, tradisjon og kvalitet - til gode priser.</p>"
+    },
+    {
+        "name": "Kajakk og Fritid",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "kajakk-og-fritid",
+        "domain": "kajakk-og-fritid.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/mHFxTXNbwBsZHZCqmalZaVb6wP5F3CzsPBg6mUcc.png",
+        "description": "<div>Vi har et stort utvalg av utstyr for utendørsaktiviteter, inkludert el-sykler, sup-brett, kajakker og mye mer. Vårt produktspekter er nøye utvalgt for å passe til alle erfaringsnivåer, fra nybegynner til proff. Vi tror at ved å tilby det beste utstyret til riktig pris, kan vi hjelpe våre kunder til å ha en optimal opplevelse når de utforsker naturen og alt vårt vakre land har å tilby.</div>"
+    },
+    {
+        "name": "Kärcher",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "karcher",
+        "domain": "karcher.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/mELTtevhadxvk73P8hllCtbrOJN5xxzEEjewyngA.jpg",
+        "description": "<div>Kärcher er verdens ledende produsent av rengjøringssystemer Våre maskiner er effektive, brukervennlige, og har både høy kvalitet og ytelse, og utgjør en stor forskjell for rengjøringsoppgavene i hjemmet. Kärchers mest kjente produkt er uten tvil høytrykkspylere, men vi har også et stort utvalg av annet rengjøringsutstyr for hjem og hage.</div>"
+    },
+    {
+        "name": "Kate Spade",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "kate-spade",
+        "domain": "kate-spade.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Kate_Spade-1689584067.jpg",
+        "description": "<p>Skarpe farger, grafiske utskrifter og sofistikert lek er kjennetegnene på Kate Spade New York. Fra vesker og klær til smykker, motetilbehør, duft, briller, sko, badetøy, boliginnredning, skrivebordstilbehør, skrivesaker og gaver. Den sprudlende tilnærmingen til hverdagen oppmuntrer til personlig stil med et snev av glødende sjarm. Vi kaller det å leve fargerikt.</p>"
+    },
+    {
+        "name": "Kinogavekort",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "kinogavekort",
+        "domain": "kinogavekort.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Kinogavekort-1689584133.jpg",
+        "description": "<p>Kinogavekort- et produkt fra Filmweb. Alle liker kino! Mottakeren av gavekortet velger selv hvilken film de ønsker å se. Gavekortet brukes til kjøp av kinobilletter og kioskvarer på de aller fleste kinoer i Norge. Perfekt som jul- og bursdagsgave, til konfirmasjon, som vertinnegave eller premie i konkurranser.</p>"
+    },
+    {
+        "name": "Kinoklubb",
+        "type": "SAS",
+        "bonus": "250 kr",
+        "slug": "kinoklubb",
+        "domain": "kinoklubb.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Kinoklubb-1689584100.jpg",
+        "description": "<div>Filmene velges ut av vårt Filmutvalg, et ekspertpanel bestående av representanter fra norsk kinobransje. Filmene varier litt i sjanger og opprinnelsesland, men felles for dem alle er at det er kvalitetsfilmer som vi er sikre på skal gi deg en god kinoopplevelse. Vi velger ut ti filmer per år; fem i vårhalvåret og fem i høsthalvåret. Du får beskjed på epost og SMS når du kan se en ny film til halv pris med medlemskapet ditt.</div><div><br></div><div>V<strong>enligst merk:</strong> Dette tilbudet kan bare brukes én gang per EuroBonus-medlem og gjelder kun for norske medlemmer.</div><div><br></div>"
+    },
+    {
+        "name": "KitchenTime",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "kitchentime",
+        "domain": "kitchentime.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/KitchenTime-1689583718.jpg",
+        "description": "<div>Hos KitchenTime kan du finne alt til kjøkkenet ditt. I vårt store sortiment finner du kvalitetsprodukter for matlagning, baking og inredning for kjøkkenet til bra priser. Vårt mål er at du skal føle deg trygg med at du kan finne akkurat det produkt du trenger til rett pris, uten å lete i flere butikker.</div>"
+    },
+    {
+        "name": "Kitch’n",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "kitchn-norge",
+        "domain": "kitchn-norge.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Kitchn_Norge-1689584301.jpg",
+        "description": "<p>Kitch’n skal være No. 1 på kjøkkenet, og vi er kjent for gode og innovative varer til kjøkkenet, ekstra god service og fagkunnskaper. Kitch’n fører mange kjente merkevarer, blant annet: Le Creuset, Smeg, Eva Solo, Cosori, Rosendahl, MoominByArabia, Modern House m.flere. Produktene holder høy kvalitet og profil, og er i hovedsak: Gryter og panner, kokkekniver, stålbestikk, vin- og barglass, krus, elektriske artikler til kjøkkenet, termo- og serveringskanner, ildfaste former, serviser og design-artikler.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Klikk & hent gir ikke EuroBonus point&nbsp;</strong></p>"
+    },
+    {
+        "name": "Kjell & Company",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "kjell-co-no",
+        "domain": "Kjell.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Kjell_&_CO_NO-1689583991.jpg",
+        "description": "<div>Kjell &amp; Company har Nordens bredeste sortiment av tilbehør til hjemmeelektronikk. På Kjell.com finner du alt du trenger innen nettverk og smarte hjem, elektronikk til hjemmet, tilbehør til mobilen og nettbrettet, datatilbehør og husholdningsapparater.</div><div><strong><br>Vennligst mertk:</strong> Du tjener kun poeng ved bestilling og betaling på nett</div>"
+    },
+    {
+        "name": "Komplett",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "komplett-1",
+        "domain": "Komplett.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Komplett-1689584161.jpg",
+        "description": "<div>Komplett.no er butikken for alle som synes hverdagen blir litt enklere og morsommere med elektronikk! Hos oss finner du alt fra gamingutstyr, datautstyr, PC-er og mobiler til hvitevarer, kjøkkenutstyr, TV-er, lydprodukter og smarte produkter. Vi har levert elektronikk til norske hjem siden 1996 og er Norges største nettbutikk.</div><div><br></div><div><strong>Vennligst merk:</strong> Poeng utbetales ikke for forhåndsbestillinger av PS5.</div>"
+    },
+    {
+        "name": "L'Occitane",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "loccitane",
+        "domain": "loccitane.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/YSjNvhblcCfRgbZETg5i7Hau0rBcxiMDfvf332dy.png",
+        "description": "<div>L'Occitane er et fransk kosmetikk og hudpleiemerke kjent for sine produkter basert på naturlige ingredienser, ofte inspirert av tradisjonene fra Provence, Frankrike. Merket fokuserer på bærekraft, håndlagde produkter og skjønnheten som finnes i naturen. De tilbyr et bredt utvalg av produkter, inkludert hudpleie, hårpleie og parfymer.</div>"
+    },
+    {
+        "name": "Lampegiganten",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lampegiganten",
+        "domain": "lampegiganten.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lampegiganten-1689583724.jpg",
+        "description": "<p>Lampegiganten er en førende nettforhandler av lamper og lys. I sortimentet vårt finner du produkter fra anerkjente merker og designere, enestående designlamper med tilhørende tilbehør.</p>"
+    },
+    {
+        "name": "Lappeliten",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lappeliten",
+        "domain": "lappeliten.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lappeliten-1689584284.jpg",
+        "description": "<p>Lappeliten tilbyr navnelapper for merking av klær og utstyr, som du kan designe selv! Lappeliten tilbyr både klistrelapper og strykelapper.&nbsp;</p>"
+    },
+    {
+        "name": "LEGO",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lego",
+        "domain": "lego.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/LEGO-1689584166.jpg",
+        "description": "Utforsk LEGO® -universet, hvor du finner nye og klassiske lekeprodukter fra den populære danske leketøyprodusenten, som i flere generasjoner har brakt glede og lek til barn i alle aldre."
+    },
+    {
+        "name": "Lekmer",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lekmer-1",
+        "domain": "Lekmer.se",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/GSVuqd8Aex5aTcsT73J1knjTRgQ3uvgBhNPyuGdp.jpg",
+        "description": "<p>Lekmer.se er en av Nordens ledende nettbutikker for barnefamilier med alt for alle barn. Hos Lekmer.se er det et stort utvalg av leker, barneklær, babyprodukter, barnevogner, bilseter og innredning til barnerommet – alltid til riktig pris.</p>"
+    },
+    {
+        "name": "Lenovo",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "lenovo-2",
+        "domain": "lenovo-2.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lenovo-1689584241.jpg",
+        "description": "<p>Hos Lenovo kan du kjøpe de beste bærbare, bærbare, ultrabook, PC-er og servere for både hjem og bedrift. Datatilbehør og oppgraderinger er også tilgjengelig her!</p>"
+    },
+    {
+        "name": "LensOn",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lenson",
+        "domain": "lenson.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/LensOn-1689583646.jpg",
+        "description": "<p>Hos Lenson&nbsp;bestiller du enkelt samme kontaktlinser som hos optikeren, men til lavere priser. Lenson&nbsp;selger alle typer billige linser (dagslinser, månedslinser, fargede linser, toriske linser, bifokale linser og døgnetrundt-linser) fra produsenter som Bausch & Lomb, Johnson & Johnson, CIBA Vision og CooperVision.</p>"
+    },
+    {
+        "name": "Lensway",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lensway",
+        "domain": "lensway.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lensway-1689583607.jpg",
+        "description": "<p>LensWay er en av Europas største nettbutikker for kontaktlinser, briller og solbriller. Helt siden starten av år 2000 har vi hjulpet over en million kunder med å se bedre. Gjennom å kombinere raske leveranser, lavprisløfte, fornøydgaranti, konkurransedyktige priser og personlig kundeservice har vi blitt en av bransjens ledende aktører.</p>"
+    },
+    {
+        "name": "Liffner",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "liffner",
+        "domain": "liffner.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/USdYqDoyBR2BJxIiU34AFSIQsVuAZmRT0ndu0XCE.png",
+        "description": "<div>Liffner er et skandinavisk skinnmerke forankret i uttrykksfull minimalisme, tidshevdet italiensk håndverk og den stille styrken til målrettet design.&nbsp;</div>"
+    },
+    {
+        "name": "Lindex",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lindex",
+        "domain": "lindex.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lindex-1689583786.jpg",
+        "description": "<p>Lindex er en av Europas ledende motekjeder, med ca 480 butikker i 18 markeder og en online shoppingopplevelse som er tilgjengelig i 30 land. Lindex sitt&nbsp;forretningkonsept er å tilby inspirerende og rimelig høykvalitets mote til den motebevisste kvinnen.</p>"
+    },
+    {
+        "name": "Logitech",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "logitech",
+        "domain": "logitech.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Logitech-1689584236.jpg",
+        "description": "<p>Logitech er en av de største produsentene av multimedia/spillutstyr til datamaskiner og produserer bl.a. mus, tastaturer, høyttalere og hodetelefoner.</p>"
+    },
+    {
+        "name": "Lunehjem.no",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lunehjem.no",
+        "domain": "Lunehjem.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/YLz7yvgbH7YP77WV216oAXgyBiZMl5237XV8ZGwt.jpg",
+        "description": "<div>Lunehjem.no er en ledende norsk interiørbutikk. Vi tilbyr et bredt spekter av produkter som forvandler ethvert hjem til en varm og lun oase. Drevet av lidenskap for skjønnhet, funksjonalitet og kvalitet, tror vi at et hjem skal være et sted hvor du kan uttrykke din personlige stil.&nbsp;</div>"
+    },
+    {
+        "name": "Lusini",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lusini",
+        "domain": "lusini.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lusini-1689584254.jpg",
+        "description": "<p>Vårt firma går under navnet LUSINI og har som mål å inspirere, gi personlig service og levere produkter av beste kvalitet rundt om i Europa. Alt på ett sted! Med LUSINI bygger vi et hjem for våre varemerker VEGA, JOBELINE og Erwin M., som har vært trofaste leverandører til restaurantbransjen i over 30 år. VEGA er spesialist på møbler til restaurant og uteservering, det dekkede bordet og alt som trengs på kjøkkenet. Alt med fin design og høy funksjonalitet. Erwin M., vårt tekstilvaremerke, er nytt på det skandinaviske markedet, men i Europa har det eksistert i over 30 år. Vi har alt som trengs av tekstiler for servering, kjøkken og overnatting! JOBELINE tilbyr funksjonell mote for hotell- og restaurantyrkene. Utmerket kvalitet og profilerbare klær er en selvfølge! Vårt mål er at våre kunder skal kunne skape uforglemmelige opplevelser for sine gjester. Vi på LUSINI vil tilby de som jobber med service hver dag den servicen de selv trenger!</p>"
+    },
+    {
+        "name": "Lux-case",
+        "type": "SAS",
+        "bonus": "80 %",
+        "slug": "lux-case",
+        "domain": "lux-case.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lux-case-1689583631.jpg",
+        "description": "<p>Det største utvalget av deksler!</p>"
+    },
+    {
+        "name": "LYKO",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lyko-dk",
+        "domain": "lyko-dk.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lyko-1689584092.jpg",
+        "description": "<p>På Lyko brenner vi for hår og skjønnhet&nbsp;like mye som vi brenner for å levere kundeservice&nbsp;i absolutt verdensklasse. Så uansett om du lurer på hvordan du får krøllene til å holde, hvilken leppestift du bør velge til helgens outfit, hvilken skjeggtrimmer som har best presisjon eller hvor i alle dager ordrebekreftelsen har blitt av, så er vi her for deg.</p>"
+    },
+    {
+        "name": "LYR Design",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "lyr-design",
+        "domain": "lyr-design.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/LYR_Design-1689583812.jpg",
+        "description": "<p>YR Design AS er en Norsk smykkeforhandler som lever av fornøyde kunder! Vi har hovedsaklig spesialisert oss på sølvsmykker&nbsp;i alle varianter og design, men har også mye annet spennende å velge mellom. De siste årene har smykker av sølv med edelstener blitt trendy, og vi forsøker derfor å ha et ekstra stort utvalg av akkurat dette. Hos oss kan du gjøre et trygt smykkekjøp og vite at smykkene ligger trygt i din postkasse få dager etter du legger inn ordren. Alle varene sendes senest 1 virkedag etter at du har lagt inn din ordre og selvfølgelig fra vårt Norske lager!</p>"
+    },
+    {
+        "name": "Lysman",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "lysman",
+        "domain": "lysman.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Lysman-1689584081.jpg",
+        "description": "<p>Lysman tilbyr: Lave priser. Vi tåler å bli sammenlignet med! Praktisk måte å handle på. Enkelhet. Store bilder og tydelige forklaringer gjør det enkelt for deg å finne det du leter etter. Kun høyeste kvalitet og kjente merker. Raske leveranser. Gratis frakt fra 499. Vi har også en ambisjon om å hjelpe deg med å spare energi. Ved å aktivt informere og alltid peke på alternativer til den gamle lyspæren, hjelper vi deg med å spare energi og dermed bidra til et bedre miljø.</p>"
+    },
+    {
+        "name": "Maanesten",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "maanesten",
+        "domain": "maanesten.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/XNg6wctYVnEh4fK3OihICjUrIljId7NKhXWYKDWj.png",
+        "description": "<div>Maanesten er for alle – og til alle. Siden starten har vi skapt de smykkene vi selv drømmer om, i et fortryllende og spirituelt univers der kreativiteten ikke har noen grenser.</div>"
+    },
+    {
+        "name": "Made4men",
+        "type": "SAS",
+        "bonus": "80 %",
+        "slug": "made4men",
+        "domain": "made4men.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/rGphJy2kRkOooNcLvxXRcsuVyibNac4FjMwHMMZe.jpg",
+        "description": "<p>Made4men er Nordens største webshop med pleieprodukter til menn. Made4men blant annet satt RazorPit, Tendskin, Baxter of California, Menscience, Easy-raze og mange andre produkter på markedet i Norden.</p>"
+    },
+    {
+        "name": "Mangotango",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "mangotango",
+        "domain": "MangoTango.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Mangotango-1689584031.jpg",
+        "description": "<p>MangoTango.no er en norsk nettbutikk med et trendy utvalg av alt en kvinne kan drømme om. Hos MangoTango.no kommer du inn i et univers med alt fra smykker, klær og hårpynt til neglelakk, såper og duftlys. Vi i MangoTango.no ønsker å tilby det siste innen trender og vi er hele tiden på jakt etter nye og spennende produkter å tilby våre kunder.&nbsp;</p>"
+    },
+    {
+        "name": "Marshall",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "marshall",
+        "domain": "marshall.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Marshall-1689583809.jpg",
+        "description": "<p>Navnet&nbsp;Marshall&nbsp;skriker rock'n'roll så langt øyet og øret rekker. Opplev den klare og definerte lyden du får selv på høyt volum.</p>"
+    },
+    {
+        "name": "Miinto",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "miinto",
+        "domain": "miinto.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Miinto-1689583660.jpg",
+        "description": "<p>Ved å samle over 400 av Norges mest kjente butikker, har Miinto muligheten til å kunne tilby deg et spennende og bedt sortiment av varer til dame, herre og barn. Miinto har tusenvis av merker, fra kjente Premium brands som Tiger of Sweden, By Malene Birger, Filippa K m.m, til sporty brands som Twentyfour, Norrøna og Bergans.<br></p>"
+    },
+    {
+        "name": "MyProtein",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "myprotein",
+        "domain": "Myprotein.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/MyProtein-1689583669.jpg",
+        "description": "<p>Myprotein.com med premium kvalitet kosttilskudd til uslåelige direkte priser. Med et enormt utvalg av over 350 produkter og dens betryggende pris garanti, kan kundene handle trygt for alle deres helse og ernæring behov. Viktige produktlinjer omfatter whey protein, vitaminer, aminosyrer, fiskeoljer, urteekstrakter, gym tilbehør og mange flere.</p>"
+    },
+    {
+        "name": "Navnelapper",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "navnelapper",
+        "domain": "navnelapper.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Navnelapper-1689583905.jpg",
+        "description": "<p>Disse navnelappene er strykefrie og selvklebende og de kan brukes til alt, klær og sko inkludert. Husk bare på å feste dem på vaskeanvisningen. De tåler 60 grader i vaskemaskin, tørketrommel, oppvaskmaskin, ovnstemperaturer og kulde.</p>\n\n<p><br></p><p>Askeladden Navnelapper er størst i Norge, har gratis frakt og rask levering.</p>"
+    },
+    {
+        "name": "Newchic",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "newchic",
+        "domain": "newchic.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Newchic-1689583858.jpg",
+        "description": "<p>NewChic ønsker å få kunden til å se bra ut for mindre. Hvis du er ute etter noe nytt, friskt og stilig, vil NewChic hjelpe deg med å få det perfekte utseendet! NewChic tilbyr et stort utvalg av de nyeste klær og tilbehør til både menn og kvinner.&nbsp;</p>"
+    },
+    {
+        "name": "Newport",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "newport",
+        "domain": "newport.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Newport-1689583964.jpg",
+        "description": "<p>Newport tilbyr et håndplukket utvalg av eksklusive møbler til hjemmet. Serien består av alt fra bordbøker og små interiørdetaljer til solide møbler fra noen av Europas ledende merker.</p>"
+    },
+    {
+        "name": "Next",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "next",
+        "domain": "next.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/UJ2FqlkDibEqgB1IERbs50f0qpqAvAOr6ZGHN6ke.png",
+        "description": "<div>Next er din destinasjon for de nyeste motetrendene, alltid tilgjengelige, inspirerende og enkle å utforske. Vi kombinerer stil og kvalitet i hvert plagg. Med fokus på moderne design, bærekraftige materialer og personlig service ønsker vi å være din daglige inspirasjonskilde, enten du kler deg for jobb, fest eller hverdag. Velkommen til Next Direct, der mote møter deg.</div>"
+    },
+    {
+        "name": "Nextory",
+        "type": "SAS",
+        "bonus": "250 kr",
+        "slug": "nextory",
+        "domain": "nextory.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Nextory-1689583901.jpg",
+        "description": "<div>Med Nextory får du ubegrenset tilgang til både e-bøker og lydbøker – en perfekt reisefølge for din neste flyreise med SAS. Du kan lese og lytte til bøkene direkte i vår iOS- eller Android-app. Som EuroBonus-medlem kan du prøve Nextory gratis i hele 45 dager (vanligvis 14 dager) og du tjener poeng selv om du ikke ønsker å fortsette tjenesten.</div><div><strong><br>Vennligst merk</strong>: Denne kampanjen kan kun brukes én gang pr. kunde og gjelder kun for nye Norske kunder.</div>"
+    },
+    {
+        "name": "Nike",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "nike",
+        "domain": "nike.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Nike_-1689583967.jpg",
+        "description": "<p>Nike leverer nyskapende produkter, opplevelser og tjenester som inspirerer idrettsutøvere over hele verden. Gratis frakt og returer på utvalgte bestillinger.</p>\n\n<p><br></p>\n\n\n\n\n\n<p><strong>Vennligst merk:</strong>&nbsp;Der utbetalas inte poeng for&nbsp;Apple Watch, presentkort, Jordan produkter eller våtdrakter<br></p>"
+    },
+    {
+        "name": "Nordic Nest",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "nordic-nest",
+        "domain": "nordic-nest.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Nordic_Nest-1689583981.jpg",
+        "description": "<p>Her finner du innredning og design for alle hjemmets rom. Vårt unike sortiment består av tusenvis av nøye utvalgte møbler fra mer enn 200 skandinaviske merker som Muuto, String furniture, Ferm Living, Nordic Nest og Menu. Sammen danner de et klart bilde av hva skandinavisk design står for og hva som gjør dette så unikt.</p>"
+    },
+    {
+        "name": "Nordic Print",
+        "type": "SAS",
+        "bonus": "80 %",
+        "slug": "nordic-print",
+        "domain": "nordic-print.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Nordic_Print-1689584134.jpg",
+        "description": "<p>Nordic Print AS har drevet med salg av navnelapper i Norge siden 2006, vi er blant Norges største leverandør av navnelapper. I tillegg tilbyr vi MYID som er lasergravert silikonarmbånd.</p>"
+    },
+    {
+        "name": "NordVPN",
+        "type": "SAS",
+        "bonus": "100 %",
+        "slug": "nordvpn",
+        "domain": "nordvpn.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/NordVPN-1689584021.jpg",
+        "description": "<p>Se for deg VPN som en sikker, kryptert tunnel med online trafikk, der ingen kan se inn i tunnelen og få dataene og informasjonen din. Med NordVPN kan du føle deg helt sikker når du bruker offentlige WiFi-tilkoblinger, logger deg på dine personlige eller arbeidsrelaterte kontoer når du er på farten eller bare ønsker å beholde surfeloggen din for deg selv.</p>"
+    },
+    {
+        "name": "Norli",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "norli",
+        "domain": "norli.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/jXaVzWp0Iw1qTyXNZ2WYxqptpOzfmfRlZcoQjaDI.jpg",
+        "description": "<div>Hos Norli finner du bøkene du ønsker deg - nesten uansett hva du liker best. I tillegg til skjønnlitteratur, fakta og barnebøker finner du i flere av våre butikker et stort utvalg av skolebøker, fagbøker og bøker til høyere utdanning. I tillegg til bøkene finner du også stort utvalg i kontorvarer, spill, datarekvisita, reisetilbehør, studiemateriell, skolesekker, kort og sesongprodukter.</div>"
+    },
+    {
+        "name": "Norton by Symantec",
+        "type": "SAS",
+        "bonus": "100 %",
+        "slug": "norton-by-symantec",
+        "domain": "norton-by-symantec.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Norton_by_Symantec-1689583722.jpg",
+        "description": "<p>Symantecs&nbsp;Norton&nbsp;har hva du trenger for å beskytte din datamaskin, fra kjernesikkerhet som firewall og backup, til anti phising og anti spam løsninger.</p>"
+    },
+    {
+        "name": "OBH Nordica",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "obh-nordica",
+        "domain": "obh-nordica.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/K39GAt5UinyoL0DmuLrg4kBjeIYoUS1TC8RzXeGi.jpg",
+        "description": "<div>Vi designer produkter for hvert øyeblikk av dagen. Som en rask og velsmakende frokost, en stilig hårlook på kort tid eller rett og slett å få et rent og ryddig hjem. Med innovative og smarte produkter i stilig design skaper vi sammen løsninger som gjør hverdagen din enklere.</div><div><br></div>"
+    },
+    {
+        "name": "Outnorth",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "outnorth",
+        "domain": "outnorth.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/wpodkRnUHcpQcz6hTlnvZmzUMjwhxUOSHbXn7JbA.jpg",
+        "description": "<p>Outnorth er en av Nordens største aktører innen skandinavisk outdoor. Her finner våre kunder bekledning og utstyr av høy kvalitet, og til en god pris fra kjente varemerker som Bergans, Nørrøna, Haglöfs, Fjällräven, Helly Hansen, Lundhags och Hilleberg.</p>"
+    },
+    {
+        "name": "Palace Resorts",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "palace-resorts",
+        "domain": "palace-resorts.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Palace_Resorts-1689584060.jpg",
+        "description": "<p>Palace Resorts tilbyr den ultimate ferieopplevelsen som inkluderer alt. Luksuriøse rom med dobbelt boblebad for to i hvert rom, god mat, drikke på hylla, sensasjonell underholdning, 24-timers romservice, ikke-motorisert vannsport og så mye mer. Gjestene har også tilgang til noen av de flotteste spaene i Mexico og Jamaica, og kan glede seg over gode verdier på golfpakker med alt inkludert. Det er 10 fantastiske Palace Resorts-eiendommer i hele Mexico og Jamaica.</p>\n\n<p><br></p>\n\n\n\n<p>Merk vennligst: Eurobonus-poengene dine blir tildelt deg når du har fullført et bestilt opphold.</p>"
+    },
+    {
+        "name": "Paradoux",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "paradoux",
+        "domain": "paradoux.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Paradoux-1689584315.jpg",
+        "description": "<p>Paradoux (uttales \"Paradu\") er en serie unisex-klokker av høy kvalitet inspirert av kulturen, gatene og mote i Frankrike. Klokkene våre er laget for de&nbsp;modige, nøye designet for å matche en allsidig stil og håndleddet ditt. Alt er laget med ett mål i tankene – å lage en rimelig luksusklokke, ikke bare etter utseendet, men også på innsiden.</p>"
+    },
+    {
+        "name": "PatPat",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "patpat",
+        "domain": "patpat.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/PatPat-1689584231.jpg",
+        "description": "<p>PatPat gjør det enkelt og morsomt å utstyre barna dine! Formelen vår er enkel:</p>\n\n<p>PatPat: Søt + kvalitet + god pris = flere lykkelige øyeblikk.</p>\n\n\n\n<p>Enten det er den første dagen på skolen, en lekedate, en dag hjemme eller en feriestund. PatPat vil holde deg og hele familien smilende. Vi tilbyr ganske enkelt et stort utvalg av søte kvalitetsklær til gode priser, slik at familier over hele verden kan ha flere gledelige øyeblikk.</p>"
+    },
+    {
+        "name": "Parfyme Klikk",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "perfume-click",
+        "domain": "Klikk.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Perfume_Click-1689583912.jpg",
+        "description": "<p>Parfyme Klikk.no er en nettbutikk med over 9000 rabatterte dufter, hudpleie- og skjønnhetsprodukter fra en rekke designermerker og kjendiser.&nbsp;De tilbyr noen av de beste prisene på nettet med over 500 populære merker som&nbsp;Calvin Klein, Thierry Mugler, Guinot, Paco Rabanne, Hugo Boss, Elizabeth Arden, Creed, Britney Spears&nbsp;og mange fler.</p>"
+    },
+    {
+        "name": "Petster",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "petster",
+        "domain": "petster.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Petster-1689583999.jpg",
+        "description": "<p>Petsters&nbsp;mål er å tilby et bredt spekter av unike produkter for Hunder, Hester og Katter. De tilbyr også funksjonelle og komfortable utendørs klær til kvinner og menn.</p>"
+    },
+    {
+        "name": "Philips",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "philips",
+        "domain": "philips.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/f4DygjzntvxroH7dwpU5h71cGvKaoqOL0imBKfSo.jpg",
+        "description": "Philips åpnet nylig sitt nye flaggskip, an nettbutikk hvor forbrukere kan finne alle Philips sine produkter og tjenester med den beste kundeopplevelsen og støtten. Som medoppfinner av CD, DVD og nå Blu-Ray, er Philips anerkjent som å være nyskapende."
+    },
+    {
+        "name": "Philips Hue",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "philips-hue",
+        "domain": "philips-hue.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/BcOkftVMVg4WYz0URVnAIxtMiFcYPGFbySKqBPZk.jpg",
+        "description": "<div>Philips Hue har belysning for alle rom og miljøer, både innendørs og utendørs. Sorter etter for eksempel stue, kjøkken, soverom eller bad og oppdag hvilke produkter vi anbefaler for hvert miljø.</div>"
+    },
+    {
+        "name": "pink or blue",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "pink-or-blue",
+        "domain": "pinkorblue.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/pink_or_blue-1689583774.jpg",
+        "description": "<p>Hos pinkorblue.no får du markedets mest populære barnevognsmodeller, bilstoler, leker, barneromsinnredning, sikkerhetsprodukter og mye, mye mer.</p>"
+    },
+    {
+        "name": "Polarn O. Pyret",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "polarnopyret",
+        "domain": "polarnopyret.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Polarn_O._Pyret-1689583767.jpg",
+        "description": "<p>Polarn O. Pyret har laget barneklær i over 40 år. Det innebærer en god del erfaring om hva som fungerer og hva som ikke fungerer. Hver detalj i alt fra t-skjorter til skalljakke er gjennomtenkte og testet. Hvert plagg er designet med barnets beste i fokus. Vi inngår ikke kompromiss med kvalitet, design og funksjonalitet. Det er detaljene som gjør forskjellen.</p>"
+    },
+    {
+        "name": "Proshop",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "proshop",
+        "domain": "proshop.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Proshop-1689583756.jpg",
+        "description": "<p>Proshop er grunnlagt på godt kjøpmannskap og vanlig sunn fornuft. I dette ligger det helt naturlig og hele tiden være tilgjengelige for kundene, yte verdens beste kundeservice og alltid ha de riktige varene til attraktive priser.</p>"
+    },
+    {
+        "name": "Proteinfabrikken",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "proteinfabrikken",
+        "domain": "proteinfabrikken.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Proteinfabrikken-1689583619.jpg",
+        "description": "<p>Proteinfabrikken er Norges største produsent og leverandør av kosttilskudd og sportsernæring.</p>"
+    },
+    {
+        "name": "Racketspecialisten",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "racketspecialisten",
+        "domain": "racketspecialisten.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Racketspecialisten-1689584228.jpg",
+        "description": "<p>Racketspesialisten er Nordens største racketbutikk og tilbyr deg som driver med racketsport et nøye utvalgt utvalg fra verdens ledende merker til meget konkurransedyktige priser. Vår ambisjon er å tilby en enkel måte for deg å handle på, slik at du kan bruke tiden din på å utøve sporten din.</p>"
+    },
+    {
+        "name": "Rains",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "rains",
+        "domain": "rains.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/nKytsSivkYFtx8OmzkuXS9kSfHhxy2BrRnfwbAmI.jpg",
+        "description": "<div>Rains er et livsstilsmerke for yttertøy. Kolleksjonene blander en konseptuell-møter-funksjonell designtilnærming, en sterk urban inspirasjon og en signatur stoffidentitet. En belagt vanntett stoffpalett inspirert av Rains første design – en moderne nytolkning av den klassiske gummiregnfrakken.</div>"
+    },
+    {
+        "name": "Ray-Ban",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "ray-ban",
+        "domain": "ray-ban.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Ray-Ban-1689584031.jpg",
+        "description": "<p>Ray-Ban solbriller er ikoner som representerer over 70 års autentisitet og stil. Fra Aviator til Wayfarer ble Ray-Ban solbriller båret av kulturledere, fra Hollywood til musikkverdenen. Med Ray-Ban Remix kan du lage dine egne tilpassede solbriller, velge fargene på rammen og linsene og en tekst som skal graveres på templet. Du kan også velge å gravere en sak eller lignende. Prøv de tilgjengelige kombinasjonene og lag din egen tilpassede Ray-Ban, eller personaliser Ray-Ban din basert på de vi opprettet for deg. Du kan velge mellom følgende modeller: Erika, Justin, Aviator, New Wayfarer og Wayfarer.</p>"
+    },
+    {
+        "name": "Razer",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "razer",
+        "domain": "razer.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Razer-1689584252.jpg",
+        "description": "<p>Det trippelhodede slangevaremerket til Razer er en av de mest anerkjente logoene i de globale spill- og esport-miljøene. Med en fanskare som spenner over alle kontinenter, har selskapet designet og bygget verdens største spillerfokuserte økosystem av maskinvare, programvare og tjenester.</p>"
+    },
+    {
+        "name": "RITO",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "rito",
+        "domain": "rito.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/RITO_-1689583898.jpg",
+        "description": "<p>RITO&nbsp;er en seriøs og pålitelig nettbutikk, og har flere års erfaring innenfor strikk, hekling og hobby.&nbsp;</p>"
+    },
+    {
+        "name": "Royal Design",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "royal-design",
+        "domain": "RoyalDesign.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/LUMyTt2IgioGbKmakGl2cNxKWsohgFUQeplDDhze.png",
+        "description": "<p>RoyalDesign.no er Norges&nbsp;største nettsted med design og innredning for ditt hjem og kontor. Nyt&nbsp;av mer en 30 000 produkter på RoyalDesign.no.</p>"
+    },
+    {
+        "name": "Rum21",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "room21",
+        "domain": "RUM21.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Rum21-1689583711.jpg",
+        "description": "<p>RUM21.no samarbeider med mange av Europas ledende designvaremerker og møbelprodusenter. Kjøp lamper, hagemøbler, sengeklær, sofaer, radioapparater, hyller, glass, tepper og mye mye mer direkte på nettet.</p>"
+    },
+    {
+        "name": "Safira",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "safira",
+        "domain": "safira.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/xfT5Zp8Q3CTnvXdfiqWsHrNBDWPRaof8FG2iPl5U.png",
+        "description": "<div>Alle smykkene våre har en kjerne av ekte 925 sterling sølv eller messing belagt med sterling sølv eller ekte gull fra 18 til 24 karat. SAFIRAs smykker i ekte 925 sterling sølv er stemplet med kjennetegn som bevis på autentisitet.</div><div><br></div>"
+    },
+    {
+        "name": "Sail Racing",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "sail-racing",
+        "domain": "sail-racing.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sail_Racing-1689583977.jpg",
+        "description": "<p>Sail Racing&nbsp;ble gjenlansert i 1999 i Billdal, Gøteborg. Da tok man opp igjen design og produksjon av varemerket som ikke hadde vært aktivt siden midten av 1980-tallet. I dag er varemerket kjent for sine innovative og tekniske plagg som benyttes til seiling på høyt nivå, men også for praktiske hverdagsplagg.</p>"
+    },
+    {
+        "name": "Senze of Joy",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "senze-of-joy",
+        "domain": "senze-of-joy.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Senze_of_Joy-1689583861.jpg",
+        "description": "<p>Senze of Joy er et Norsk merke som ble etablert i 2005, og som raskt ble kjent som leverandør av unike puter med spennende design og god kvalitet.&nbsp;Etterhvert ble sortimentet utvidet med en kleskolleksjon.&nbsp;</p><p><br></p><p><br></p>"
+    },
+    {
+        "name": "Shampoohuset",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "shampoohuset",
+        "domain": "Shampoohuset.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Shampoohuset-1689583987.jpg",
+        "description": "<p>Shampoohuset.no har en av de rikeste profesjonell og spesialisert hårpleieserie i hele Norge.&nbsp;Her kan du kjøpe hår sjampo, balsam, fargestoffer, oljer, og andre hår pleie produkter. Vi tilbyr Høy kvalitet skjønnhetsprodukter både for kvinner og menn.<br></p>"
+    },
+    {
+        "name": "Shopping4net",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "shopping4net",
+        "domain": "shopping4net.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Shopping4net-1689583594.jpg",
+        "description": "<p>Shopping4net finnes i dag på 11 europeiske&nbsp;markeder. Shopping4net fører kun originalprodukter fra velkjente&nbsp;varemerker innenfor skjønnhet, helsekost, kontaktlinser, blekk &&nbsp;toner & leker.</p>"
+    },
+    {
+        "name": "Sistie",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "sistie",
+        "domain": "sistie.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sistie-1689584247.jpg",
+        "description": "<p>Sistie er et smykkemerke for unge kvinner.</p>\n\n<p>Sistie er et univers som integrerer unge kvinner i arrangementer, design, styling, artikler og konkurranser. Et aktivt fellesskap hvor kreativitet og lidenskap skaper fremtiden.</p>"
+    },
+    {
+        "name": "Skistart.com",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "skistart.com",
+        "domain": "Skistart.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Skistart.com-1689583658.jpg",
+        "description": "<div>Skistart.com selger alt innenfor ski og skiutstyr på nett. Nettbutikken har hovedfokus på langrenn, men har også bredt utvalg innenfor rulleski, sko, klær og friluftsprodukter for året rundt.</div>"
+    },
+    {
+        "name": "Skogstad Sport",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "skogstad-sport",
+        "domain": "skogstad-sport.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/qbg1C7YCts4JlIUHEmH0EBolYH4GP1tQcS2Fx992.jpg",
+        "description": "<div>Skogstad Sport som ble etablert i den lille vestlandsbygda Innvik, har gjennom tre generasjoner laget attraktive sport- og friluftsklær for hele familien. Siden 1937 har vårt oppdrag vært å skreddersy produkter av høy kvalitet med fokus på miljø, funksjonalitet og design. Alle skal ha like forutsetninger til å kunne oppnå og ha glede av opplevelser i storslått natur, med riktig utstyr.</div>"
+    },
+    {
+        "name": "Skruvat",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "skruvat",
+        "domain": "skruvat.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Skruvat-1689583717.jpg",
+        "description": "<p>Skruvat har vokst raskt til å bli Skandinavias største forhandler av bildeler på nett, med tusenvis av fornøyde kunder hver uke.</p>"
+    },
+    {
+        "name": "Sky Showtime",
+        "type": "SAS",
+        "bonus": "500 kr",
+        "slug": "sky-showtime",
+        "domain": "sky-showtime.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/NbIfR8Fch8ClcV7VEyVILvjl16hsOFFTgrFsG2JE.jpg",
+        "description": "<div>SkyShowtime er en helt ny strømmetjeneste som samler noen av verdens største historiefortellere, fra Universal Pictures, Dreamworks, Sky Studios og Peacock til Nickelodeon, SHOWTIME®, Paramount+ og Paramount Pictures.<br><br><strong>Du tjener kun poeng ved bestilling av et 1-års abonnement</strong><br><br><strong>Vennligst merk</strong>: Denne kampanjen kan kun brukes én gang per medlem og gjelder kun for nye kunder.</div>"
+    },
+    {
+        "name": "Slikkepott",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "slikkepott",
+        "domain": "Slikkepott.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Slikkepott-1689583668.jpg",
+        "description": "Slikkepott.no er en norsk nettbutikk med produkter for kjøkken og baking."
+    },
+    {
+        "name": "SmartBuyGlasses",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "smartbuyglasses",
+        "domain": "smartbuyglasses.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/SmartBuyGlasses-1689583881.jpg",
+        "description": "<p>SmartBuyGlasses er en av Norges ledende nettoptikere med over 180 designer merkevarer til utrolige priser. Med gratis internasjonal levering, gratis rensesett med hver bestilling, 2 års garanti og 100 dagers returrett skiller vi oss ut fra alle andre optikere.</p>"
+    },
+    {
+        "name": "Smartphoto",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "smartphoto-se",
+        "domain": "smartphoto.se",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/QCLtuuiMihcaBebU3KHLSRKXVznDFb9CTPJVnXBo.png",
+        "description": "<p>Siden 1972 har Smartphoto utviklet hundrevis av millioner bilder. I dag er smartphoto den ledende fotoprodusenten i Europa med over 5 millioner kunder i 20 land. Smartphoto har alt fra fotogaver, fotobøker, fotokalendere, lerreter og vanlige bilder og forstørrelser.</p>"
+    },
+    {
+        "name": "Sneakersnstuff",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "sneakersnstuff",
+        "domain": "sneakersnstuff.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sneakersnstuff-1689583679.jpg",
+        "description": "<p>Sveriges beste sneaker butikk siden 1999. Nike, Adidas, Converse, Puma, New Balance, Carhartt og mer.</p>\n\n<p><br></p>\n\n<p><strong>Vennligst merk:: </strong>Poeng oppnås ikke når du kjøper \"Limited Edition\" produkter.<br></p>"
+    },
+    {
+        "name": "Soma",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "soma",
+        "domain": "Soma.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Soma-1689583914.jpg",
+        "description": "<p>Soma.no er nettbutikk med økologiske tørr- og drikkevarer, \"fri for\"-mat, høykvalitets kosttilskudd og økologiske og naturlige kroppspleie-produkter.</p>"
+    },
+    {
+        "name": "Sonos",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "sonos",
+        "domain": "sonos.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sonos-1689584053.jpg",
+        "description": "<p>Sonos er det trådløse Home Sound System, et smart nettverk av trådløse høyttalere som fyller så mange rom du vil med flott lyd, filmer og TV, streaming via WiFi. Spill hva du vil, og forsterk hvert øyeblikk med intens, pulslydende lyd.</p>"
+    },
+    {
+        "name": "SoundStoreXL",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "soundstorexl",
+        "domain": "soundstorexl.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/SoundStoreXL-1689584174.jpg",
+        "description": "<p>SoundStoreXL er en av de største skandinaviskeide forhandlere av profesjonelt lydutstyr, lysutstyr, studio og innspillings utstyret til hjemmestudiet og alt DJ-utstyr.&nbsp;</p>"
+    },
+    {
+        "name": "Sparnet",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "sparnet",
+        "domain": "sparnet.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sparnet-1689583986.jpg",
+        "description": "<p>Sparnet er en av Nordens største og raskest voksende nettbutikker for smarte og funksjonelle produkter i sport, fritid og teknikk.&nbsp;Sparnet vokser stadig og vi jobber hardt for å kunne tilby smarte løsninger til gode priser. Sparnet tilbyr utelukkende det populære fritidsmerket Beyond Active med klær, ryggsekker, sports hodetelefoner og mye mer.</p>"
+    },
+    {
+        "name": "Sportgymbutikken",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "sportgymbutiken",
+        "domain": "sportgymbutiken.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Sportgymbutiken-1689583748.jpg",
+        "description": "<p>Sportgymbutiken tilbyr et bredt og stadig voksende sortiment av treningsprodukter.</p>"
+    },
+    {
+        "name": "Stay In Place",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "stay-in-place",
+        "domain": "stay-in-place.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Stay_In_Place-1689583920.jpg",
+        "description": "<p>Stay In Shape har utviklet og perfeksjonert sports bh'er&nbsp;for å bedre passe alle former og stadier i livet siden 1987. De tilbyr et bredt spekter av forskjellige sports bh'er&nbsp;og undertøy.</p>"
+    },
+    {
+        "name": "Staypro",
+        "type": "SAS",
+        "bonus": "20 %",
+        "slug": "staypro",
+        "domain": "staypro.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Staypro-1689583941.jpg",
+        "description": "<p>Staypro er ledende innen e-handel for verktøy, laser, målerinstrument og andre byggrelaterte produkter i Norge. Vi lagerfører store deler av vårt sortiment for å garantere rask leveranse.</p>"
+    },
+    {
+        "name": "Stella McCartney",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "stella-mccartney",
+        "domain": "stella-mccartney.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Stella_McCartney-1689584093.jpg",
+        "description": "<p>Verdenskjente britiske motehus Stella McCartney er kjent for sin karakteristiske stil med skarp skreddersøm, naturlig selvtillit og sexy femininitet. En livslang vegetarianer selv, Stella McCartney bruker ikke skinn eller pels i sine design. Kolleksjonene hennes inkluderer klær for kvinner og menn, tilbehør, undertøy, briller, duft og barn.</p>"
+    },
+    {
+        "name": "StockX",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "stockx",
+        "domain": "stockx.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/StockX-1689584261.jpg",
+        "description": "<p>StockX er en online markedsplass og klesforhandler, hovedsakelig av joggesko.</p>\n\n<p>Siden november 2020 har også elektroniske produkter som spillkonsoller, smarttelefoner og maskinvare åpnet seg.</p>"
+    },
+    {
+        "name": "Stormberg",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "stormberg",
+        "domain": "stormberg.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/X6hz3rgd4wkLNNyQx04nkwxEUHtKbaRAEsMTdaL9.jpg",
+        "description": "<div>Stormberg er Norges mestselgende sports- og turtøymerkevare. Stormberg utvikler, designer og selger funksjonelt tur- og sportstøy til familievennlige priser. Stormberg dreier seg om de gode opplevelsene man får ute på tur, gjerne sammen med noen man er glad i. I Stormberg er man ikke opptatt av hvor fort man går, eller hvilke topper man bestiger. I Stormberg dreier det seg om å være ute og oppleve turgleden, gjerne på korte turer: Små turer er også store</div>"
+    },
+    {
+        "name": "Storytel",
+        "type": "SAS",
+        "bonus": "250 kr",
+        "slug": "storytel-no",
+        "domain": "storytel.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Storytel_NO-1689583917.jpg",
+        "description": "<div>Prøv Storytel gratis i 30 dager! Velg blant 500 000 lydbøker og e-bøker på mobilen for kun 219 kr/mnd. Lytt og les når som helst og hvor som helst. Ingen bindingstid. Du tjener poeng selv om du ikke ønsker å fortsette tjenesten.</div><div><strong><br>Merk vennligst</strong>: Denne kampanjen kan bare brukes en gang per Eurobonus-medlem. Du kan selv avslutte abonnementet når som helst fra Storytels hjemmeside. Tilbudet gjelder kun nye kunder.</div>"
+    },
+    {
+        "name": "Strim",
+        "type": "SAS",
+        "bonus": "500 kr",
+        "slug": "strim",
+        "domain": "strim.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Strim-1695372376.jpg",
+        "description": "<div>Vi vet at mange har kjent på hvordan det er å gå seg vill i strømmejungelen. Derfor utfordrer vi dagens kompliserte underholdningshverdag og bygger Norges enkleste og mest inspirerende strømmetjeneste. Med Strim samler du abonnementene dine i én tjeneste. Det betyr i praksis at du kan se TV, film og serier fra landets mest populære kanaler og strømmetjenester på ett sted.<br><br><strong>Vennligst merk</strong>: Denne kampanjen kan kun brukes én gang pr. kunde og gjelder kun for nye Norske kunder (ikke medlem de siste 12 månedene).</div>"
+    },
+    {
+        "name": "SWIMS",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "swims",
+        "domain": "swims.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/9bllOsUFRRoYfXzTqbRkugzQBUKlXTGwdQ7L5DSZ.png",
+        "description": "<div>Historien til merkevaren Swims startet da en norsk student gikk rundt i Manhattans regnfulle gater iført bestefarens gamle kalosjer. Merket ble grunnlagt&nbsp; i Oslo i 2006 og solgte kun kalosjer. Selve identitet til Swims er bygget på ideen om å forbedre og fokusere på optimisme og selvtillit.</div>"
+    },
+    {
+        "name": "Telia",
+        "type": "SAS",
+        "bonus": "2000 kr",
+        "slug": "telia-bredband-og-tv",
+        "domain": "telia-bredband-og-tv.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Telia-1689583851.jpg",
+        "description": "<div>Gjennom våre produkter og tjenester utgjør vi navet i det digitale økosystemet i Norge, og vi gir våre kunder tilgang til det som er viktig for dem, på deres vilkår, gjennom hele døgnet – året rundt.<br><br><strong>Vennligst merk:</strong> Denne kampanjen kan kun brukes én gang per EuroBonus-medlem og er kun gyldig for nye kunder (ikke aktiv de siste 12 månedene). Du tjener kun poeng ved bestilling av Mobilabonnement, Mobilt bredbånd, eller Trådløst bredbånd (med unntak av Junior 1 GB, Junior 5 GB, og kontantkort). Du må være kunde i minst 3 måneder for å tjene poeng.</div>"
+    },
+    {
+        "name": "TheChef",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "the-chef",
+        "domain": "the-chef.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/The_Chef-1689583995.jpg",
+        "description": "<p>TheChef er en nettbutikk som spesialiserer seg på produkter som brukes på kjøkkenet. Her finner du produkter både til den profesjonelle og til deg som er glad i å lage mat.</p>"
+    },
+    {
+        "name": "Tilbords",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "tilbords-1",
+        "domain": "tilbords-1.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Tilbords-1689584323.jpg",
+        "description": "<p>Tilbords er Norges ledende interiør og kjøkkenkjede. Hos oss finner du alt du trenger til hjemmet, fra kjøkkenutstyr og kjøkkenredskaper som glass og kopper, bestikk, gryter og panner - til mye flott interiør som skåler, vaser, lys og figurer. I tillegg har vi et stort utvalg servise og servisedeler i klassisk, moderne, retro, og romantisk stil som blant annet Raw fra Aida, Hammershøi fra Kähler, og Grand Cru fra Rosendahl. Du finner alltid kvalitetsvarer fra kjente merker som Georg Jensen, Royal Copenhagen, Le Creuset og Eva Solo.</p>"
+    },
+    {
+        "name": "Timarco",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "timarco",
+        "domain": "timarco.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Timarco-1689583649.jpg",
+        "description": "<p>Timarco har størst sortiment av merkeundertøy og sportsundertøy på nettet. Timarco har eksistert i 28 år som bedrift samt som nettbutikk siden 1997. I sortimentet ingår et stort utvalg av undertøy (truser, underbukser, BH og Sports-BH) men også badetøy, sko og sportsklær.</p>"
+    },
+    {
+        "name": "Tirendo",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "tirendo",
+        "domain": "tirendo.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Tirendo-1689583674.jpg",
+        "description": "<p>Tirendo - din online dekkekspert! Utvalget vart består av mer enn 20.000 produkter med alt fra premium-merker til rimelige kvalitetsdekk.&nbsp;</p>"
+    },
+    {
+        "name": "Trapessko",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "trapessko",
+        "domain": "trapessko.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Trapessko-1689584259.jpg",
+        "description": "<p>Norsk skofaghandel siden 1979.</p>"
+    },
+    {
+        "name": "Under Amour",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "under-amour",
+        "domain": "under-amour.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/4zULreiMliC8obOscDnwCk0QNrFzWYJBmcefm6al.jpg",
+        "description": "<div>Under Armour er et av de amerikanske merkene innen treningsklær som vi nok er mest glad i. Vi oppdaget det på en tur og var ikke i tvil om at vi ville forhandle det. Under Armour har ulike flotte og funksjonelle treningsklær, og Under Armour går ikke på akkord med funksjonene.</div>"
+    },
+    {
+        "name": "Urban Trend",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "urban-trend",
+        "domain": "urban-trend.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Urban_Trend-1689584008.jpg",
+        "description": "<p>Nettbutikken Urban Trend ble opprettet i 2006 og tilbyr spennende produkter i kreativt funksjonelt design som man ikke kommer over hver dag. &nbsp; Enten du ønsker å glede deg selv eller andre finner du garantert noe du liker!</p>\n\n<p><br></p>"
+    },
+    {
+        "name": "Urbanears",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "zoundindustries",
+        "domain": "zoundindustries.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Urbanears-1689583750.jpg",
+        "description": "<p>Urbanears gjør hodetelefoner som passer din hverdag.</p>"
+    },
+    {
+        "name": "Urverket.no",
+        "type": "SAS",
+        "bonus": "20 %",
+        "slug": "urverket.no",
+        "domain": "Urverket.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Urverket.no-1689583876.jpg",
+        "description": "<p>Kjøp eksklusive klokker på nett med opptil 75% rabatt på ordinære priser. Urverket.no er Skandinavias største nettbutikk for merkeklokker. Vi har levert klokker på nett til over 100.000 fornøyde kunder siden oppstarten i 2006<br></p><p><br></p><p><strong>Vennligst merk:</strong> Ingen poeng betales for følgende merker;&nbsp;Cartier, Fortis, GUCCI, IWC, Longines, Omega, Panerai, Patek Philippe, Raymond Weil, Rolex, Tag Heuer, Tudor.<br></p>"
+    },
+    {
+        "name": "Velosophy",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "velosophy",
+        "domain": "velosophy.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/NQcYczHw2Up04D2q3P042gO7HsxYjD3wsM2CSX3m.png",
+        "description": "<div>Vélosophy - dels sykkel, dels filosofi. Vélosophy er et svensk sykkel- og livsstilsmerke. Vi ble lansert våren 2016 og er det eneste sykkelmerket i verden som har et en for en løfte - å støtte unge skolejenter i utviklingsland ved å donere en sykkel for hvert salg til Vélosophy.</div>"
+    },
+    {
+        "name": "VetZoo",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "vetzoo",
+        "domain": "VetZoo.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/JSeGhAXEyEvL9PQezrovHgbsQv4IkYhT5qfgy2jj.png",
+        "description": "<p>Hos VetZoo.no finner du alt til ditt husdyr, til og med veterinærfôr. Når du velger hjemlevering &nbsp;behøver du ikke å være hjemme for å ta imot pakken, vi setter den utenfor døren din. Du trenger rett og slett aldri å drasse på tunge fôrsekker igjen. Fri frakt over 600 kr.</p>"
+    },
+    {
+        "name": "Viator",
+        "type": "SAS",
+        "bonus": "15 %",
+        "slug": "viator",
+        "domain": "viator.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/LLmjyr2dtOJ0t8Kg6nxhAFpkArbRzDCLE5vChA8G.jpg",
+        "description": "<p>Viator gjør det enkelt for reisende å finne akkurat det de har lyst til å gjøre. Med direkte tilgang til mer enn 200 000 bestillingsklare aktiviteter blir det enkelt å finne og bestille fantastiske opplevelser. Viator er optimalisert for bestilling på mobil, slik at reisende kan planlegge på forhånd eller bestille mens de er på farten for å slippe lange køer og at det allerede er utsolgt.</p>"
+    },
+    {
+        "name": "VidaXL",
+        "type": "SAS",
+        "bonus": "10 %",
+        "slug": "vida-xl-se",
+        "domain": "vida-xl.se",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/vidaXL-1689583688.jpg",
+        "description": "<p>VidaXL er en internasjonal nettbutikk som tilbyr alt en trenger til hjem, hage, garasje og gjør-det-selv-prosjekter.&nbsp;Nettbutikken har et stort utvalg av produkter som strekker seg fra møbler, jernvare, sportsutstyr, leker, smykker til hjem og hage og mye mer.</p>"
+    },
+    {
+        "name": "Viking Footwear",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "viking-footwear",
+        "domain": "viking-footwear.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Viking_footwear-1689584269.jpg",
+        "description": "<p>Viking Outdoor Footwear er et varemerke med lange tradisjoner. Vi streber etter innovasjon i alle ledd mens vi jobber for å tilby den beste teknologien tilgjengelig til våre kunder. Uansett om det er sko til barnehage eller tursko, vil vi stå mot vær og terreng ved å tilby våre slitesterke og innovative sko i årene som kommer. Viking ble etablert i 1920 og er et av Norges eldste varemerker.</p>"
+    },
+    {
+        "name": "VITA",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "vita-no",
+        "domain": "vita.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/VITA-1695372390.jpg",
+        "description": "<p>VITA er Norges største kjede innen skjønnhet og velvære og har i dag 116 butikker fordelt over hele Norge, samt nettbutikken vita.no.&nbsp;</p>\n\n<p><br></p>\n\n\n\n<p>Den første VITA butikken ble åpnet i Oslo i 1981 og vi har lang historie på det norske markedet. Vår misjon er å være en destinasjon for alle som søker råd, inspirasjon og produkter av høy kvalitet innen skjønnhet, helse og velvære. VITAS fokus er å yte fantastisk service, tilby høy faglig kompetanse og kjente merkevarer til lave priser!</p>"
+    },
+    {
+        "name": "VitaePro",
+        "type": "SAS",
+        "bonus": "750 kr",
+        "slug": "vitaepro",
+        "domain": "vitaepro.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Vitaepro-1689583950.jpg",
+        "description": "<p>Vi er stolte over å kunne si at hele 92 % av våre kunder opplever en positiv effekt på muskler og ledd. Dette skyldes vår unike kombinasjon med flere ingredienser av høyeste kvalitet. VitaePro inneholder blant annet Boswellia serrata som er bra for leddene og vitamin D som er bra for musklene.</p>\n\n<p><strong><br>Mark venligst:</strong>&nbsp;Denne kampanjen kan kun brukes én gang per EuroBonus-medlem og er kun gyldig for nye kunder.<br></p>"
+    },
+    {
+        "name": "VPG.no",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "vpg.no",
+        "domain": "vpg.no.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/VPG.no-1689583693.jpg",
+        "description": "<p>Nettbutikk med fjellsportsutstyr. Klatring, sykling, padling, ryggsekker og turutstyr. Utstyr av ypperste kvalitet og konkurransedyktige priser!</p>"
+    },
+    {
+        "name": "WEEKDAY",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "weekday",
+        "domain": "weekday.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/WEEKDAY-1689584080.jpg",
+        "description": "<p>Weekday er et svensk denim- og motemerke påvirket av ungdomskultur og gatestil. Weekday ble grunnlagt i 2002 og sendes i dag til 18 markeder og har butikker i 10 land. De tilbyr en unik handleopplevelse og en omfattende blanding av klær for kvinner og menn samt et lite utvalg av eksterne merkevarer.</p>"
+    },
+    {
+        "name": "Widforss",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "widforss",
+        "domain": "Widforss.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/MdBB8idT8NBIy9qZRMreAoyk2RfE5zGRq8zVew6G.png",
+        "description": "<div>Velkommen til Widforss.no, Norges fremste destinasjon for jakt- og friluftsentusiaster, etablert i 2017. I motsetning til tradisjonelle butikker, er Widforss kun tilgjengelig online, noe som gjør det enklere enn noensinne å handle alt du trenger for ditt friluftsliv.</div>"
+    },
+    {
+        "name": "Won Hundred",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "won-hundred",
+        "domain": "won-hundred.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Won_Hundred-1689583908.jpg",
+        "description": "<p>Won Hundred offer menn,kvinner og unisex&nbsp;samlinger, inkludert sko og tilbehør.</p>"
+    },
+    {
+        "name": "X-life",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "x-life",
+        "domain": "x-life.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/X-life-1689584313.jpg",
+        "description": "<p>Vårt samfunnsansvar er å bidra til at flest mulig mennesker holder seg i aktivitet. Vi er en destinasjon der man skal finne inspirasjon til en aktiv livsstil med spennende produkter innen trening og aktiv fritid. I tillegg til å tilby stort utvalg produkter er vi opptatt av å inspirere til trening på bloggen&nbsp;vår.</p>"
+    },
+    {
+        "name": "Xplora",
+        "type": "SAS",
+        "bonus": "1000 kr",
+        "slug": "xplora",
+        "domain": "xplora.com",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/Xplora-1689583878.jpg",
+        "description": "<div>Endelig en komplett mobiltelefon, spesielt laget for barnet ditt – utformet som en smartklokke. Etter flere år med forskning og utvikling er Xplora den første smartklokken i verden som er CE godkjent som mobiltelefon og som både bruker aGPS, aktiv WiFi og GSM-triangulering for å gi presis lokasjon. For å gjøre den komplett leveres den med norsk språk, veiledning og support.&nbsp;</div><div><br></div><div>V<strong>ennligst merk:</strong>&nbsp;Du tjener kun poeng ved kjøp av klokker</div>"
+    },
+    {
+        "name": "YouWish",
+        "type": "SAS",
+        "bonus": "50 %",
+        "slug": "youwish",
+        "domain": "YouWish.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/YouWish-1689583946.jpg",
+        "description": "<p>YouWish.no er Norges største leverandør av opplevelsesgaver. Velg gavekort på over 500 opplevelser eller kjøp opplevelsesgavekortet og la mottaker velge selv.</p>"
+    },
+    {
+        "name": "ZOO.no",
+        "type": "SAS",
+        "bonus": "25 %",
+        "slug": "zoo.se-1",
+        "domain": "ZOO.no",
+        "image": "https://storage.onlineshopping.loyaltykey.com/storage/app/public/shops/images/ZOO_Online_store-1689584318.jpg",
+        "description": "<p>ZOO.no&nbsp;har Norges&nbsp;største sortiment av kjæledyrartikler med velassorterte butikker og veterinærklinikker. Vi er tilgjengelig på nett og i flere store butikker rundt om i Norge.</p>"
     }
 ]
