@@ -166,7 +166,9 @@ def main():
         all_shops.append(shop_entry)
 
     # Save shops.json
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    output_dir = os.path.dirname(OUTPUT_FILE)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_shops, f, ensure_ascii=False, indent=4)
     print(f"Saved {len(all_shops)} shops to {OUTPUT_FILE}")
