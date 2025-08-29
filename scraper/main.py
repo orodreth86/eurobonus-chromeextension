@@ -104,35 +104,25 @@ def main():
             # Try to extract domain from description
             domain = domain_from_description(description)
             if domain:
-                needs_review = False
                 trusted = True
+                needs_review = False
+                missing = False
             else:
                 # Check for Norwegian hints
                 country_hint = re.search(r'\b(norsk|norske|norwegian|norway)\b', description or '', re.I)
-                if country_hint:
-                    candidate = heuristic_domain(slug, prefer_no=True)
-                    if validate_domain(candidate):
-                        domain = candidate
-                        needs_review = False
-                        trusted = True
-                    else:
-                        domain = heuristic_domain(slug)  # fallback .com
-                        needs_review = True
-                        trusted = False
-                        missing = False
-                        missing_count += 1
-                else:
-                    # Default heuristic
-                    domain = heuristic_domain(slug)
-                    needs_review = False
+                candidate = heuristic_domain(slug, prefer_no=bool(country_hint))
+                if validate_domain(candidate):
+                    domain = candidate
                     trusted = True
-
-        if not domain:
-            domain = "unknown"
-            needs_review = True
-            missing = True
-            trusted = False
-            missing_count += 1
+                    needs_review = False
+                    missing = False
+                else:
+                    # domain guessed but failed validation
+                    domain = candidate
+                    trusted = False
+                    needs_review = True
+                    missing = True
+                    missing_count += 1
 
         if needs_review:
             new_or_heuristic_count += 1
