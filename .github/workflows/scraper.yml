@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0   # make sure history is available for commit
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,20 +23,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
+      - name: Upgrade certifi
+        run: pip install --upgrade certifi
+
       - name: Validate patches.json
         run: python -m json.tool scraper/patches.json > /dev/null
 
       - name: Run scraper
         run: python scraper/main.py
 
-      - name: Commit and push changes
+      - name: Commit and push changes to shops.json and patches.json
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           if [[ `git status --porcelain shops.json scraper/patches.json` ]]; then
             git add shops.json scraper/patches.json
-            git commit -m "Auto-update shops.json and/or patches.json"
+            git commit -m "Auto-update shops.json and patches.json"
             git push
           else
-            echo "No changes"
+            echo "No changes in shops.json or patches.json"
           fi
