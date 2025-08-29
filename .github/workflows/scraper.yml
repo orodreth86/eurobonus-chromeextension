@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # make sure history is available for commit
+          fetch-depth: 0   # ensure full git history for commits
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,9 +22,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
-
-      - name: Upgrade certifi
-        run: pip install --upgrade certifi
 
       - name: Validate patches.json
         run: python -m json.tool scraper/patches.json > /dev/null
@@ -42,4 +39,3 @@ jobs:
             git push
           else
             echo "No changes in shops.json or patches.json"
-          fi
