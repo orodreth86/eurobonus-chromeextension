@@ -33,9 +33,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           if [[ `git status --porcelain shops.json scraper/patches.json` ]]; then
             git add shops.json scraper/patches.json
             git commit -m "Auto-update shops.json and patches.json"
             git push
           else
             echo "No changes in shops.json or patches.json"
+          fi
