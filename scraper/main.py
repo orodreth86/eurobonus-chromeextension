@@ -6,7 +6,7 @@ PATCHES_FILE = os.path.join(os.path.dirname(__file__), "patches.json")
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "shops.json")
 
 # ------------------------
-# Helper: load patches
+# Load patches
 # ------------------------
 def load_patches():
     if os.path.exists(PATCHES_FILE):
@@ -15,22 +15,11 @@ def load_patches():
     return {}
 
 # ------------------------
-# Helper: save patches
+# Save patches
 # ------------------------
 def save_patches(patches):
     with open(PATCHES_FILE, "w", encoding="utf-8") as f:
         json.dump(patches, f, ensure_ascii=False, indent=4)
-
-# ------------------------
-# Helper: validate domain
-# ------------------------
-def valid_domain(domain):
-    url = f"https://{domain}"
-    try:
-        resp = requests.head(url, timeout=5)
-        return resp.status_code < 400
-    except:
-        return False
 
 # ------------------------
 # Fetch SAS shops via API
@@ -84,19 +73,13 @@ def main():
         elif shop.get("commission_type") == "variable":
             shop_entry["bonus"] = f"{shop.get('points')} %"
 
-        # Domain resolution
+        # Domain resolution using patches only
         if slug in patches and patches[slug]:
             shop_entry["domain"] = patches[slug]
         else:
-            # Heuristic: slug + .com
-            domain_guess = f"{slug}.com"
-            if valid_domain(domain_guess):
-                shop_entry["domain"] = domain_guess
-            else:
-                shop_entry["domain"] = None
-                # Add to patches if missing
-                if slug not in patches:
-                    patches[slug] = None
+            shop_entry["domain"] = None
+            if slug not in patches:
+                patches[slug] = None  # Add unresolved slug for manual patch
 
         all_shops.append(shop_entry)
 
