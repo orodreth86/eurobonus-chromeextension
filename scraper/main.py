@@ -7,7 +7,7 @@ PATCHES_FILE = os.path.join(os.path.dirname(__file__), "patches.json")
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "shops.json")
 
 # ------------------------
-# Load patches
+# Load patches.json
 # ------------------------
 def load_patches():
     if os.path.exists(PATCHES_FILE):
@@ -16,7 +16,7 @@ def load_patches():
     return {}
 
 # ------------------------
-# Save patches
+# Save patches.json
 # ------------------------
 def save_patches(patches):
     with open(PATCHES_FILE, "w", encoding="utf-8") as f:
@@ -67,36 +67,37 @@ def heuristic_domain(slug):
 # Main
 # ------------------------
 def main():
-    patches = load_patches()  # may be empty
+    patches = load_patches()  # Load existing patches or empty dict
     all_shops = []
 
-    print("Fetching SAS shops via API...")
+    print("Fetching SAS shops from API...")
     sas_shops = fetch_sas_shops()
-    print(f"Found {len(sas_shops)} shops from SAS API")
+    print(f"Found {len(sas_shops)} shops")
 
     for shop in sas_shops:
         slug = shop.get("slug")
         description = shop.get("description")
 
-        # Determine domain
+        # Resolve domain
         if slug in patches and patches[slug]:
-            resolved_domain = patches[slug]
+            domain = patches[slug]
         else:
             # Try description first
-            resolved_domain = domain_from_description(description)
-            if not resolved_domain:
-                resolved_domain = heuristic_domain(slug)
+            domain = domain_from_description(description)
+            if not domain:
+                # Heuristic
+                domain = heuristic_domain(slug)
 
-        # Update patches.json with this slug and domain
-        patches[slug] = resolved_domain
+        # Always update patches.json
+        patches[slug] = domain
 
-        # Prepare shop entry
+        # Prepare shop entry for shops.json
         shop_entry = {
             "name": shop.get("name"),
             "type": "SAS",
             "bonus": None,
             "slug": slug,
-            "domain": resolved_domain,
+            "domain": domain,  # always populated
             "image": shop.get("image_url"),
             "description": description
         }
@@ -116,9 +117,9 @@ def main():
         json.dump(all_shops, f, ensure_ascii=False, indent=4)
     print(f"Saved {len(all_shops)} shops to {OUTPUT_FILE}")
 
-    # Save complete patches.json with all slugs and their domains
+    # Save patches.json
     save_patches(patches)
-    print(f"Saved patches.json with {len(patches)} total slugs and their domains")
+    print(f"Saved patches.json with {len(patches)} slugs and their domains")
 
 if __name__ == "__main__":
     main()
