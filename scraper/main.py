@@ -6,16 +6,25 @@ import re
 PATCHES_FILE = os.path.join(os.path.dirname(__file__), "patches.json")
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "shops.json")
 
+# ------------------------
+# Load patches
+# ------------------------
 def load_patches():
     if os.path.exists(PATCHES_FILE):
         with open(PATCHES_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
+# ------------------------
+# Save patches
+# ------------------------
 def save_patches(patches):
     with open(PATCHES_FILE, "w", encoding="utf-8") as f:
         json.dump(patches, f, ensure_ascii=False, indent=4)
 
+# ------------------------
+# Fetch SAS shops via API
+# ------------------------
 def fetch_sas_shops():
     API_URL = "https://onlineshopping.loyaltykey.com/api/v1/shops"
     params = {
@@ -28,11 +37,13 @@ def fetch_sas_shops():
                       "(KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*"
     }
-
     resp = requests.get(API_URL, params=params, headers=headers, timeout=15)
     resp.raise_for_status()
     return resp.json().get("data", [])
 
+# ------------------------
+# Extract domain from description
+# ------------------------
 def domain_from_description(description):
     if not description:
         return None
@@ -41,6 +52,9 @@ def domain_from_description(description):
         return match.group(3) + '.' + match.group(4)
     return None
 
+# ------------------------
+# Heuristic domain
+# ------------------------
 def heuristic_domain(slug):
     if slug.endswith("-no"):
         return slug[:-3] + ".no"
@@ -49,8 +63,11 @@ def heuristic_domain(slug):
     else:
         return slug + ".com"
 
+# ------------------------
+# Main
+# ------------------------
 def main():
-    patches = load_patches()
+    patches = load_patches()  # may be empty
     all_shops = []
 
     print("Fetching SAS shops via API...")
@@ -60,12 +77,26 @@ def main():
     for shop in sas_shops:
         slug = shop.get("slug")
         description = shop.get("description")
+
+        # Determine domain
+        if slug in patches and patches[slug]:
+            resolved_domain = patches[slug]
+        else:
+            # Try description first
+            resolved_domain = domain_from_description(description)
+            if not resolved_domain:
+                resolved_domain = heuristic_domain(slug)
+
+        # Update patches.json with this slug and domain
+        patches[slug] = resolved_domain
+
+        # Prepare shop entry
         shop_entry = {
             "name": shop.get("name"),
             "type": "SAS",
             "bonus": None,
             "slug": slug,
-            "domain": None,
+            "domain": resolved_domain,
             "image": shop.get("image_url"),
             "description": description
         }
@@ -78,20 +109,6 @@ def main():
         elif shop.get("commission_type") == "variable":
             shop_entry["bonus"] = f"{shop.get('points')} %"
 
-        # Domain resolution
-        if slug in patches and patches[slug]:
-            resolved_domain = patches[slug]
-        else:
-            # Try description first
-            resolved_domain = domain_from_description(description)
-            if not resolved_domain:
-                resolved_domain = heuristic_domain(slug)
-
-        shop_entry["domain"] = resolved_domain
-
-        # Always update patches.json with the resolved domain
-        patches[slug] = resolved_domain
-
         all_shops.append(shop_entry)
 
     # Save shops.json
@@ -99,9 +116,9 @@ def main():
         json.dump(all_shops, f, ensure_ascii=False, indent=4)
     print(f"Saved {len(all_shops)} shops to {OUTPUT_FILE}")
 
-    # Save patches.json (complete list of all slugs and their domains)
+    # Save complete patches.json with all slugs and their domains
     save_patches(patches)
-    print(f"Saved complete patches.json with all slugs and their domains")
+    print(f"Saved patches.json with {len(patches)} total slugs and their domains")
 
 if __name__ == "__main__":
     main()
