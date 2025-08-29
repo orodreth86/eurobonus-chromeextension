@@ -11,7 +11,6 @@ def load_patches():
     if os.path.exists(PATCHES_FILE):
         with open(PATCHES_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-            # Normalize to dict format if old entries are just strings
             for k, v in list(data.items()):
                 if isinstance(v, str):
                     data[k] = {
@@ -54,13 +53,24 @@ def domain_from_description(description):
         return match.group(3) + '.' + match.group(4)
     return None
 
-def heuristic_domain(slug):
-    if slug.endswith("-no"):
+def heuristic_domain(slug, prefer_no=False):
+    if prefer_no:
+        return slug + ".no"
+    elif slug.endswith("-no"):
         return slug[:-3] + ".no"
     elif slug.endswith("-se"):
         return slug[:-3] + ".se"
     else:
         return slug + ".com"
+
+def validate_domain(domain):
+    try:
+        resp = requests.head(f"https://{domain}", timeout=5)
+        if resp.status_code < 400:
+            return True
+    except:
+        return False
+    return False
 
 def main():
     patches = load_patches()
@@ -83,24 +93,38 @@ def main():
         missing = False
         trusted = False
 
-        # 1. Check existing trusted patch
+        # Check existing trusted patch
         if existing_patch.get("trusted") and existing_patch.get("domain"):
             domain = existing_patch["domain"]
             needs_review = False
             trusted = True
             missing = False
         else:
-            # 2. Try description
+            # Check description first
             domain = domain_from_description(description)
             if domain:
                 needs_review = False
                 trusted = True
             else:
-                # 3. Heuristic guess
-                domain = heuristic_domain(slug)
-                # Optionally, you could do a simple HEAD request here to validate
-                needs_review = False
-                trusted = True
+                # Check for Norwegian hints in description
+                country_hint = re.search(r'\b(norsk|norske|norwegian|norway)\b', description or '', re.I)
+                if country_hint:
+                    candidate = heuristic_domain(slug, prefer_no=True)
+                    if validate_domain(candidate):
+                        domain = candidate
+                        needs_review = False
+                        trusted = True
+                    else:
+                        domain = heuristic_domain(slug)  # fallback .com
+                        needs_review = True
+                        trusted = False
+                        missing = False
+                        missing_count += 1
+                else:
+                    # Default heuristic
+                    domain = heuristic_domain(slug)
+                    needs_review = False
+                    trusted = True
 
         if not domain:
             domain = "unknown"
@@ -126,7 +150,7 @@ def main():
             "type": "SAS",
             "bonus": None,
             "slug": slug,
-            "domain": domain if trusted else "",  # shops.json cannot have null
+            "domain": domain if trusted else "",
             "image": shop.get("image_url"),
             "description": description
         }
