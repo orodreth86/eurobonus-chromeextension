@@ -3,6 +3,7 @@ import json
 import os
 import re
 
+# Absolute paths for consistency in GitHub Actions
 PATCHES_FILE = os.path.abspath("scraper/patches.json")
 OUTPUT_FILE = os.path.abspath("shops.json")
 
@@ -13,8 +14,10 @@ def load_patches():
     return {}
 
 def save_patches(patches):
+    os.makedirs(os.path.dirname(PATCHES_FILE), exist_ok=True)  # ensure folder exists
     with open(PATCHES_FILE, "w", encoding="utf-8") as f:
         json.dump(patches, f, ensure_ascii=False, indent=4)
+    print(f"Saved patches.json at {PATCHES_FILE} with {len(patches)} slugs")
 
 def fetch_sas_shops():
     API_URL = "https://onlineshopping.loyaltykey.com/api/v1/shops"
@@ -22,7 +25,7 @@ def fetch_sas_shops():
         "filter[channel]": "SAS",
         "filter[language]": "nb",
         "filter[country]": "NO",
-        "filter[amount]": 5000  # ensure all shops returned
+        "filter[amount]": 5000  # fetch all shops
     }
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -72,13 +75,13 @@ def main():
         if slug in patches and "domain" in patches[slug] and patches[slug]["domain"]:
             domain = patches[slug]["domain"]
             needs_review = patches[slug].get("needs_review", False)
+            missing = patches[slug].get("missing", False)
         else:
             # Try description
             domain = domain_from_description(description)
             if domain:
-                needs_review = True  # we got domain from description, mark review
+                needs_review = True
             else:
-                # Heuristic
                 domain = heuristic_domain(slug)
                 needs_review = True
 
