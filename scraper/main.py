@@ -3,14 +3,15 @@ import json
 import os
 import re
 
-# Absolute paths
-PATCHES_FILE = os.path.abspath("scraper/patches.json")
-OUTPUT_FILE = os.path.abspath("shops.json")
+# Relative paths to the repository folder
+PATCHES_FILE = "scraper/patches.json"
+OUTPUT_FILE = "shops.json"
 
 def load_patches():
     if os.path.exists(PATCHES_FILE):
         with open(PATCHES_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
+            # normalize old string-only entries
             for k, v in list(data.items()):
                 if isinstance(v, str):
                     data[k] = {
@@ -93,20 +94,20 @@ def main():
         missing = False
         trusted = False
 
-        # Check existing trusted patch
+        # Use existing trusted patch if present
         if existing_patch.get("trusted") and existing_patch.get("domain"):
             domain = existing_patch["domain"]
             needs_review = False
             trusted = True
             missing = False
         else:
-            # Check description first
+            # Try to extract domain from description
             domain = domain_from_description(description)
             if domain:
                 needs_review = False
                 trusted = True
             else:
-                # Check for Norwegian hints in description
+                # Check for Norwegian hints
                 country_hint = re.search(r'\b(norsk|norske|norwegian|norway)\b', description or '', re.I)
                 if country_hint:
                     candidate = heuristic_domain(slug, prefer_no=True)
