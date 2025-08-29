@@ -1,8 +1,8 @@
-name: Scrape and Update Shops
+name: Scrape SAS Shops
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs at midnight UTC every day
+    - cron: '0 0 * * *'  # every day at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -16,23 +16,27 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install requests
 
       - name: Run scraper
         run: |
-          python scraper/scraper.py
+          python scraper/main.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add shops.json
-          git commit -m "Update shops.json"
-          git push
+          if [[ `git status --porcelain shops.json` ]]; then
+            git add shops.json
+            git commit -m "Update shops.json"
+            git push
+          else
+            echo "No changes in shops.json"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
